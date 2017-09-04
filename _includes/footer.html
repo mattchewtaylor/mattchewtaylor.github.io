@@ -1,46 +1,10 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
+<footer class="db dt-l w-100 border-box bt b--light-gray pa3 ph5-l">
+  <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+    <p class=page-title>{{ site.title | escape }}</p>
+  </a>
+  <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+    <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="mailto:{{ site.email }}" title="Email">{{ site.email }}</a>
+    <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" target="_blank" title="Twitter">{% include icon-twitter.html username=site.twitter_username %}</a>
+    <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" target="_blank" title="GitHub">{% include icon-github.html username=site.github_username %}</a>
   </div>
-
 </footer>
