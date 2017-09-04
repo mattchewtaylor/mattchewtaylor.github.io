@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "tachyons.min.css";
+
+/* addons */
+.sans-serif { font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
+
+/* reset */
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}

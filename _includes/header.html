@@ -1,0 +1,18 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+    {% if page_paths %}
+      <nav class="db dt-l w-100 border-box bb b--light-gray pa3 ph5-l">
+        <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+          <p class=page-title>{{ site.title | escape }}</p>
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+          <a class="f6 grow no-underline br-pill ph3 pv2 dib white bg-yellow" href="#0">Subscribe</a>
+        </div>
+      </nav>
+    {% endif %}
+  </div>
+</header>

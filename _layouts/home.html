@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+<div class="pa3 pa5-ns">
+  <div class="list pl0 w-60 center">
+    {% for post in site.posts %}
+    <a class="f4 db gray no-underline hover-black" href="{{ post.url | relative_url }}">
+      <div class="lh-copy pv3 ba bl-0 bt-0 br-0 b--light-gray grow pointer">
+        <h1 class="f3">
+          {{ post.title | escape }}
+        </h1>
+        {{ post.excerpt }}
+        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+        <span class="f7 no-underline br-pill ph2 pv1 dib white bg-light-blue">{{ post.date | date: date_format }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
