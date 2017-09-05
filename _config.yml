@@ -24,8 +24,14 @@ github_username:  mattchewtaylor
 # Build settings
 markdown: kramdown
 highlighter: rouge
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
