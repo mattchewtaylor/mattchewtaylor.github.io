@@ -2,22 +2,20 @@
 layout: default
 ---
 <div class="pa3 pa5-ns">
-  <div class="list pl0 measure-wide center">
+  <div class="pl0 measure-wide center">
     <article class="post lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
+        <img src="{{ page.img }}" />
         <h1 class="post-title f2 lh-solid" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            <span class="f6 no-underline br-pill ph2 pv1 dib white bg-light-blue">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="f6 no-underline br-pill ph2 pv1 dib white bg-custom-blue">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             {{ page.date | date: date_format }}</span>
           </time>
       </header>
       <div class="post-content pv3 mid-gray" itemprop="articleBody">
           {{ content }}
       </div>
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
-      {% endif %}
     </article>
 
     {% include post-footer.html %}
