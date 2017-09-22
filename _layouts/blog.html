@@ -5,7 +5,6 @@ layout: default
 <div class="home">
 
   {{ content }}
-  <p>SOME STUFF HERE SOON</p>
 
   <div class="pa3 pa5-ns">
     <div class="list pl0 measure-wide center">
@@ -19,7 +18,7 @@ layout: default
             {{ post.excerpt }}
           </p>
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          <span class="f6 no-underline br-pill ph2 pv1 dib white bg-custom-blue">{{ post.date | date: date_format }}</span>
+          <span class="f6 no-underline br-pill ph2 pv1 dib white bg-yellow">{{ post.date | date: date_format }}</span>
         </div>
       </a>
       {% endfor %}
