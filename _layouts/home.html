@@ -5,24 +5,27 @@ layout: default
 <div class="home">
 
   {{ content }}
-  <p>SOME STUFF HERE SOON</p>
 
   <div class="pa3 pa5-ns">
-    <div class="list pl0 measure-wide center">
-      {% for post in site.posts %}
-      <a class="db mid-gray no-underline hover-black" href="{{ post.url | relative_url }}">
-        <div class="lh-copy pt3 pb4 ba bl-0 bt-0 br-0 b--light-gray grow pointer">
-          <h1 class="f3">
-            {{ post.title | escape }}
-          </h1>
-          <p class="fs-normal">
-            {{ post.excerpt }}
-          </p>
-          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          <span class="f6 no-underline br-pill ph2 pv1 dib white bg-custom-blue">{{ post.date | date: date_format }}</span>
-        </div>
-      </a>
-      {% endfor %}
+    <div class="pl0 measure-wide center">
+      <!-- row 1 -->
+      <span class="fl w-10 pa0 mb4 f3">👋</span>
+      <h1 class="f3 fl w-90 pa0 mt0 mb4">Hello! I'm Matt.</h1>
+
+      <!-- row 2 -->
+      <span class="fl w-10 pa0 f3">📝</span>
+      <p class="lh-copy mid-gray fl w-90 pa0 mt0 mb4">I'm a multidisciplinary designer and strategist with 5+ years of experience in UX research, design, and code. I'm currently with the product team at <a class="custom-gradient-text shine fw5 dim link-underline" href="https://fundrise.com/" target="_blank">Fundrise</a> making the world of private market real estate investing more accesible and enjoyable for the public.</p>
+
+      <!-- row 3 -->
+      <span class="fl w-10 pa0 f3">📝</span>
+      <p class="lh-copy mid-gray fl w-90 pa0 mt0 mb4">I'm a multidisciplinary designer and strategist with 5+ years of experience in UX research, design, and code. I'm currently with the product team at <a class="custom-gradient-text shine fw5 dim link-underline" href="https://fundrise.com/" target="_blank">Fundrise</a> making the world of private market real estate investing more accesible and enjoyable for the public.</p>
+
+      <!-- row 4 -->
+      <span class="fl w-10 pa0 f3">📝</span>
+      <p class="lh-copy mid-gray fl w-90 pa0 mt0 mb4">I'm a multidisciplinary designer and strategist with 5+ years of experience in UX research, design, and code. I'm currently with the product team at <a class="custom-gradient-text shine fw5 dim link-underline" href="https://fundrise.com/" target="_blank">Fundrise</a> making the world of private market real estate investing more accesible and enjoyable for the public.</p>
+      <div class="cf"></div>
+
+
     </div>
   </div>
 </div>

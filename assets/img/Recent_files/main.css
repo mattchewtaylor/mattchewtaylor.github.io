@@ -1,0 +1,49 @@
+@import url(tachyons.min.css);
+/* addons */
+.sans-serif {
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
+
+.link-underline {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+  padding-bottom: .1rem; }
+
+.link-underline:hover {
+  padding-bottom: .2rem; }
+
+.custom-blue {
+  color: #1b6aff; }
+
+.bg-custom-blue {
+  background-color: #1b6aff; }
+
+.b--custom-blue {
+  border-color: #1b6aff; }
+
+.custom-gradient-text {
+  color: #1b6aff;
+  background: -webkit-linear-gradient(90deg, #1b6aff, #1bb5ff 50%, #1b6aff);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, #1b6aff, #1bb5ff);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, #1b6aff, #1bb5ff);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(90deg, #1b6aff, #1bb5ff 50%, #1b6aff);
+  /* Standard syntax */
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+@-webkit-keyframes shine {
+  to {
+    background-position: 200%; } }
+@keyframes shine {
+  to {
+    background-position: 200%; } }
+.shine {
+  -webkit-animation: shine 10s linear infinite; }
+
+/* normalize */
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
