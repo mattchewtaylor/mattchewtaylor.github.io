@@ -9,19 +9,23 @@ layout: default
   <div class="pa3 pa5-ns">
     <div class="list pl0 measure-wide center">
       {% for post in site.posts %}
-      <a class="db mid-gray no-underline hover-black" href="{{ post.url | relative_url }}">
-        <div class="lh-copy pt3 pb4 ba bl-0 bt-0 br-0 b--light-gray grow pointer">
-          <h1 class="f3">
+      <span class="fl w-10 pa0 mt5 f3">📝</span>
+      <a class="db no-underline black dim" href="{{ post.url | relative_url }}">
+        <div class="fl w-90 ba bl-0 bt-0 br-0 b--light-gray pointer">
+          <h1 class="f3 pa0 mt5 mb0">
             {{ post.title | escape }}
           </h1>
-          <p class="fs-normal">
+          <div class="fs-normal lh-copy mid-gray">
             {{ post.excerpt }}
-          </p>
+          </div>
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          <span class="f6 no-underline br-pill ph2 pv1 dib white bg-yellow">{{ post.date | date: date_format }}</span>
+          <span class="f6 no-underline br-pill ph2 pv1 mb4 dib white bg-yellow">{{ post.date | date: date_format }}</span>
         </div>
       </a>
       {% endfor %}
     </div>
+
+    <div class="cf"></div>
+
   </div>
 </div>

@@ -3,7 +3,7 @@
   <div class="wrapper">
     <nav class="flex justify-between bb b--light-gray">
       <a class="link white-70 hover-white no-underline flex items-center pa3" href="{{ "/" | relative_url }}">
-        <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg class="dim" width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
                 <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
                     <stop stop-color="#1b6aff" offset="0%">
@@ -23,8 +23,8 @@
         </svg>
       </a>
       <div class="flex-grow pa3 flex items-center">
-        <a {% if page.url == '/' %} class="custom-gradient-text shine fw5 f6 link dib dim ml3 ml4-ns" {% endif %} class="f6 link dib black dim ml3 ml4-ns" href="{{ "/" | relative_url }}">About</a>
-        <a {% if page.url contains '/blog/' %} class="custom-gradient-text shine fw5 f6 link dib dim ml3 ml4-ns" {% endif %} class="f6 link dib black dim ml3 ml4-ns" href="{{ "/blog/" | relative_url }}">Blog</a>
+        <a {% if page.url == '/' %} class="custom-gradient-text shine fw5 f5 link dib dim ml3 ml4-ns" {% endif %} class="f5 link dib black dim ml3 ml4-ns" href="{{ "/" | relative_url }}">About</a>
+        <a {% if page.url contains '/blog/' %} class="custom-gradient-text shine fw5 f5 link dib dim ml3 ml4-ns" {% endif %} class="f5 link dib black dim ml3 ml4-ns" href="{{ "/blog/" | relative_url }}">Blog</a>
       </div>
     </nav>
   </div>
