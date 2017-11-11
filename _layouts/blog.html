@@ -19,7 +19,7 @@ layout: default
             {{ post.excerpt }}
           </div>
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          <span class="f6 no-underline br-pill ph2 pv1 mb4 dib white bg-yellow">{{ post.date | date: date_format }}</span>
+          <span class="pv2 no-underline fw5 f5 mb4 dib custom-purple">{{ post.date | date: '%B %d, %Y' }}</span>
         </div>
       </a>
       {% endfor %}

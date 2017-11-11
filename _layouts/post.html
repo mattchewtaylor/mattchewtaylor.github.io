@@ -5,15 +5,15 @@ layout: default
   <div class="pl0 measure-wide center">
     <article class="post lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <img class="pt5" src="{{ page.img }}" />
+        <img class="mt5" src="{{ page.img }}" />
         <h1 class="post-title f2 lh-solid" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-meta">
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            <span class="f6 no-underline br-pill ph2 pv1 dib white bg-custom-blue">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ page.date | date: date_format }}</span>
+            <span class="mb3 no-underline fw5 f5 dib custom-purple">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: '%B %d, %Y' }}</span>
           </time>
       </header>
-      <div class="post-content pv3 mid-gray" itemprop="articleBody">
+      <div class="post-content mid-gray" itemprop="articleBody">
           {{ content }}
       </div>
     </article>
