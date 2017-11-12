@@ -14,11 +14,10 @@ layout: default
           </time>
       </header>
       <div class="post-content mid-gray" itemprop="articleBody">
-          {{ content }}
+        {% include post-header.html %}
+        {{ content }}
+        {% include post-footer.html %}
       </div>
     </article>
-
-    {% include post-footer.html %}
-
   </div>
 </div>
