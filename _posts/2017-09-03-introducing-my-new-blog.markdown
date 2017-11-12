@@ -4,9 +4,11 @@ title: "Introducing My New Blog"
 img: ../assets/img/test-hero.png
 date: 2017-09-03
 permalink: /writing/:title
+excerpt_separator: <!--excerpt-->
 medium-link: https://medium.com/@mattchewtaylor
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!--excerpt-->
 <br>
 <br>
 ## <span style="color: black;">Section break</span>
