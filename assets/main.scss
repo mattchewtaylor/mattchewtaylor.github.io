@@ -10,8 +10,9 @@ html {
 }
 
 /* overrides */
-p, .f5 { font-size: 18px }
-.front { z-index: 9999 }
+p, .f5 { font-size: 18px; }
+.front { z-index: 9999; }
+.header-fix { padding-top: 77px; }
 
 /* addons */
 .sans-serif { font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }

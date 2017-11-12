@@ -6,20 +6,20 @@ layout: default
 
   {{ content }}
 
-  <div class="pv5 ph3">
+  <div class="pb5 ph3">
     <div class="list pl0 measure-wide center">
       {% for post in site.posts %}
       <span class="fl w-10 pa0 mt5 f3">📝</span>
       <a class="db no-underline black dim" href="{{ post.url | relative_url }}">
         <div class="fl w-90 bb b--light-gray pointer">
-          <h1 class="f3 mt5">
+          <h1 class="f3 pa0 mt5 mb0">
             {{ post.title | escape }}
           </h1>
           <div class="fs-normal lh-copy mid-gray">
             {{ post.excerpt }}
           </div>
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          <span class="pv2 no-underline fw5 f5 mb4 dib custom-purple">{{ post.date | date: '%B %d, %Y' }}</span>
+          <span class="pv1 no-underline fw5 f5 mb4 dib custom-purple">{{ post.date | date: '%B %d, %Y' }}</span>
         </div>
       </a>
       {% endfor %}

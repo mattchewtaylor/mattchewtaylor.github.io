@@ -1,20 +1,22 @@
 ---
 layout: default
 ---
-<div class="pv5 ph3">
-  <div class="pl0 measure-wide center">
+<div class="ph3 pv5">
+  <div class="measure-wide center">
     <article class="post lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <img class="mt5" src="{{ page.img }}" />
-        <h1 class="post-title f2 lh-solid" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            <span class="mb3 no-underline fw5 f5 dib custom-purple">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ page.date | date: '%B %d, %Y' }}</span>
-          </time>
-      </header>
+      {% if page.medium-link %}
+      {% include post-header.html %}
+      {% else %}
+      {% endif %}
+      <img src="{{ page.img }}" />
+      <h1 class="post-title f2 mb0 lh-solid" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <span class="mb4 no-underline fw5 f5 dib custom-purple">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: '%B %d, %Y' }}</span>
+        </time>
+      </p>
       <div class="post-content mid-gray" itemprop="articleBody">
-        {% include post-header.html %}
         {{ content }}
         {% include post-footer.html %}
       </div>
