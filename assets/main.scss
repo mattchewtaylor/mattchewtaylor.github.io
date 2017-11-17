@@ -18,6 +18,14 @@ p, .f5 { font-size: 18px; }
 .custom-purple { color: #6e00ff; }
 .bg-custom-purple { background-color: #6e00ff; }
 .hover-bg-custom-purple:hover, .hover-bg-custom-purple:focus { background-color: #5003b8; }
+/* custom gradient */
+.bg-custom-purple-gradient {
+  background: #6e00ff;
+  background-image: -webkit-linear-gradient(top, #6e00ff, #5003b8);
+  background-image: -moz-linear-gradient(top, #6e00ff, #5003b8);
+  background-image: -ms-linear-gradient(top, #6e00ff, #5003b8);
+  background-image: -o-linear-gradient(top, #6e00ff, #5003b8);
+  background-image: linear-gradient(to bottom, #6e00ff, #5003b8); }
 /* social colors */
 .twitter-blue { color: #1da1f2; }
 .linkedin-blue { color: #0077b5; }
