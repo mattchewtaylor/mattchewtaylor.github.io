@@ -12,7 +12,7 @@ layout: default
       <h1 class="post-title f2 mb0 lh-solid" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          <span class="br1 ba pv2 ph3 mb4 no-underline fw5 f5 dib">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <span class="mb4 no-underline fw5 f5 dib">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           {{ page.date | date: '%B %d, %Y' }}</span>
         </time>
       </p>
