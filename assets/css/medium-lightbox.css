@@ -18,7 +18,7 @@ figure{
 	margin: 0px;
 	position: relative;
 	clear: both;
-	margin: 20px;
+	margin-bottom: 20px; /* TODO: fix this shitty hack */
 }
 
 figure.left{

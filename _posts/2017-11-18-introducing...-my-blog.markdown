@@ -6,7 +6,11 @@ date: 2017-11-17
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 medium-link: https://medium.com/@mattchewtaylor
-custom-css: post
+custom-css:
+  - post
+  - medium-lightbox
+custom-js:
+  - medium-lightbox
 ---
 I'm really not sure how to start this thing. Writing makes me incredibly nervous. It's difficult, time consuming, and I'm generally pretty bad at it. But, in a weird way, *that's okay* - I've never really done it before.
 <!--excerpt-->
@@ -15,6 +19,12 @@ I'm going to cut myself a bit of slack to start off with and say it's all right 
 <br>
 ## <span style="color: black;">So, what are you doing?</span>
 Well, I'm building a blog. It's going to be more than that... in the *future* - but for now it's a blog. One of my biggest goals for 2018 is to... well... practice writing. But not just writing for writings sake; it definitely goes deeper than that.
+<figure class="full left zoom-effect">
+    <div class="aspectRatioPlaceholder" >
+        <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
+        <img class="img" data-width="1088" data-height="612" src="/assets/img/test-hero.png">
+    </div>
+</figure>
 <br>
 <br>
 I'm a digital designer by day and the majority of my creativity is expressed through the notes in my notebook and some boxes on a screen. But I want to learn how to externalize those notes, how to share my thought process behind some of those boxes, and get as many people as I can involved in the conversation. I want to be able to express that every-day creativity using a medium that I'm not all that used to (writing).
