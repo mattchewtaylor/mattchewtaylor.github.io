@@ -8,7 +8,7 @@ html { margin: 0; padding: 0; font-family: sans-serif; }
 
 /* overrides */
 p, .f5 { font-size: 18px; }
-.front { z-index: 9999; }
+.front { z-index: 7999; }
 .header-fix { padding-top: 77px; }
 /* addons */
 .sans-serif { font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,sans-serif; }
