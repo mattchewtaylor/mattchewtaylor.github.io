@@ -27,10 +27,10 @@ I've had quite the busy year behind me and have set some pretty lofty goals for 
 <br>
 <br>
 ## <span style="color: black;">Cool... so who are you again?</span>
-My name is Matt(hew) Taylor. For the past year I've been working at [company] as a product designer - helping to create and maintain a design system to support the rapid expansion of the design and front-end team, as well as improve the overall experience with the investment platform through audience research, rapid prototyping and testing, and a bit of visual design.
+My name is Matt(hew) Taylor. For the past year I've been working at [Fundrise](https://fundrise.com/) as a product designer - helping to create and maintain a design system to support the rapid expansion of the design and front-end team, as well as improve the overall experience with the investment platform through audience research, rapid prototyping and testing, and a bit of visual design.
 <br>
 <br>
-Prior to [company], I was a senior designer at [company] where I lead a team of designers on a wide variety of web based projects - while later focusing on growing the agencies UX capabilities.
+Prior to Fundrise, I was a senior designer at [Illustria](http://www.illustriadesigns.com/) where I lead a team of designers on a wide variety of web based projects - while later focusing on growing the agencies UX capabilities.
 <br>
 <br>
 On the side, I have a growing number of (digital) side projects in the works. Some are close to completion, some will probably never see the light of day —but that's how it goes. What's important (to me) is that I'm at least writing about them —journaling the successes and the failures, and refining my process in the interim. I'll leave the details for future posts (cause I need all the content I can get) but I'm excited to share my process and open up an additional channel for validation and feedback.
