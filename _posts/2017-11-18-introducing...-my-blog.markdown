@@ -11,9 +11,9 @@ custom-css:
 custom-js:
   - medium-lightbox
 ---
-I'm really not sure how to start this thing. Writing makes me incredibly nervous. It's difficult, time consuming, and I'm generally pretty bad at it. But, in a weird way, *that's okay* - I've never really done it before.
+I'm really not sure how to start this thing. Writing makes me incredibly nervous. It's difficult, time consuming, and I'm generally pretty bad at it. But... *that's okay* - I've never really done it before.
 <!--excerpt-->
-I'm going to cut myself a bit of slack to start off with and say it's all right to be bad at it. In fact, I kind of *hope* I am bad at it so I can look back a year from now and say "holy shit... what was I doing!?"
+I'll cut myself a bit of slack to start off with and say it's all right to be bad at it. In fact, I kind of *hope* I am bad at it so I can look back a year from now and say "holy shit... what was I doing!?"
 <br>
 <br>
 ## <span style="color: black;">So, what are you doing?</span>
