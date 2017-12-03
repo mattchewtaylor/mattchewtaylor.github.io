@@ -39,7 +39,7 @@ On the side, I have a growing number of (digital) side projects in the works. So
 Speaking of side projects, let's talk about entrepreneurship. Entrepreneurship is an important concept to me. For as long as I can remember I've always had an immeasurable desire to create *something* that can help move society forward in a meaningful way —whether it be a business, product, or piece of art. I usually try to start any project with that in mind (ie. Is this solving a problem? Is this useful for someone to have in their life?) and ground all my decision making around the principles of human centered design and development. I'm not necessarily looking to reinvent the world, but making someones life just a bit easier and perhaps happier is the end goal.
 <br>
 <br>
-## <span style="color: black;">Well that was a lot. What else should I expect?</span>
+## <span style="color: black;">Neat. What else should I expect?</span>
 I'm not 100% sure, but in my head this blog should look a little something like:
 <br>
 <br>
