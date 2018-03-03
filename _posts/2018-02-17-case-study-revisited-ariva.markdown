@@ -1,19 +1,23 @@
 ---
 layout: post
 title: "Case study revisited: Ariva"
-img: ../assets/img/posts/01-introducing-my-blog/vol-1-hero.png
+img: ../assets/img/posts/02-case-study-revisited-ariva/02-hero.png
 date: 2018-02-17
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 custom-css:
   - post
-  - medium-lightbox
+  - fluidbox.min
 custom-js:
-  - medium-lightbox
+  - jquery.fluidbox.min
 ---
-Moving is tough. Whether it's for a new job or just wanting to be closer to family, there are many factors that go into planning and executing a big move.
 <!--excerpt-->
-My team and I designed a web app that matches users with suitable neighborhoods and provides them with an array of resources to assist throughout their decision making process.
+## <span style="color: #FA6695;">*Before we begin*</span>
+<span style="color: #FA6695;">*This is an older case study that I completed during my time at General Assmebly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.*</span>
+<br>
+<br>
+## <span style="color: black;">Introduction</span>
+Moving is tough. Whether it's for a new job or just wanting to be closer to family, there are many factors that go into planning and executing a big move. My team and I designed a web app that matches users with suitable neighborhoods and provides them with an array of resources to assist throughout their decision making process.
 <br>
 <br>
 ## <span style="color: black;">The mission</span>
@@ -41,9 +45,12 @@ My team had 3 weeks to design a feature set and UI for Ariva's new web app. The 
 <br>
 
 ## <span style="color: black;">Gathering data</span>
-I lead the research phase by first conducting a large user survey to capture some bulk data. Looking at the results, I paid close attention to how frequently people were moving within a certain time period, the tools they used to assist them, and the reasons why they decided to move. Once I had enough data, I passed along my findings to the rest of the team. From there we started a competitive analysis and established market positioning. [insert graph here]
+I lead the research phase by first conducting a large user survey to capture some bulk data. Looking at the results, I paid close attention to how frequently people were moving within a certain time period, the tools they used to assist them, and the reasons why they decided to move. Once I had enough data, I passed along my findings to the rest of the team. From there we started a competitive analysis and established market positioning.
 <br>
 <br>
+![Survey showing the number of times people moved within a year.](../assets/img/posts/02-case-study-revisited-ariva/ariva-survey-1.png){: .fl .w-100 .w-50-ns .pr3 .border-box} ![Survey showing what tools they used to help them move.](../assets/img/posts/02-case-study-revisited-ariva/ariva-survey-2.png){: .fl .w-100 .w-50-ns .pl3 .border-box}
+<div class="cf"></div>
+
 ## <span style="color: black;">Synthesis</span>
 After compiling our data, we reached out to our respondents for follow up interviews. We wanted to talk to the people that were frequently relocating and discover the root cause behind these moves. We also noticed a majority of our respondents elected to use local friends as a sole means of finding a place to live, even over the plethora of resources available online. My team and I found that to be a bit puzzling, and was something we needed to explore further.
 <br>
@@ -59,12 +66,49 @@ After compiling our data, we reached out to our respondents for follow up interv
 
 ## <span style="color: black;">Telling the story</span>
 At this point, we've built ourselves a solid foundation to begin the design process. We organized all the data gathered during the research phase into an affinity map. The objective was to try and spot any obvious behavioral patterns and establish a visual representation of shared pain points. We took the affinity map and crafted three user personas that represented our target user base.
+
+<div class="fluidbox-container">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" title="">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" alt="" title="" />
+  </a>
+</div>
+
+After finalizing our personas, we developed a set of user stories to address the common pain points. We created user flows in Axure to map out various experiences the users can expect to have when interacting with the Ariva web app. Ideally, we wanted to create a flow that directed new users through a planning phase (organizing, creating checklists, etc), an execution phase (finding a home), and an integration phase (settling in your new community). However, we recognized that not all our personas needed to follow such a linear path, so we also created flows that allow users to access each phase individually.
 <br>
 <br>
 ## <span style="color: black;">Designing the experience</span>
 Onboarding as a concept is overused and often executed poorly. We did it anyway. The Ariva matching service needed a specific set of personal data to function properly and we needed to develop a system that captured said data. To make matters a little more complex, we had to devise a way to keep our movers engaged and ensure their information was being used in a meaningful way.
 
 We scheduled a follow-up meeting with the co-founders to get a better understanding of their process and the information they needed (and wanted) from clients. We left with a flash drive and a massive binder. After scouring through piles of documents for what seemed like an eternity, we formed a list of questions that served as a base for the onboarding.
+
+<figure class="w-50 fl pa2 zoom-effect border-box">
+  <div class="aspectRatioPlaceholder">
+    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
+    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png">
+  </div>
+</figure>
+
+<figure class="w-50 fl pa2 zoom-effect border-box">
+  <div class="aspectRatioPlaceholder">
+    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
+    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png">
+  </div>
+</figure>
+
+<figure class="w-50 fl pa2 zoom-effect border-box">
+  <div class="aspectRatioPlaceholder">
+    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
+    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png">
+  </div>
+</figure>
+
+<figure class="w-50 fl pa2 zoom-effect border-box">
+  <div class="aspectRatioPlaceholder">
+    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
+    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png">
+  </div>
+</figure>
+
 <br>
 <br>
 ## <span style="color: black;">Screen first</span>
@@ -84,7 +128,7 @@ The feedback was positive! The onboarding was less intrusive than we had anticip
 ## <span style="color: black;">The good stuff</span>
 The main objective for the neighborhood matching feature is to encapsulate the essence of specific neighborhoods and districts. Color, imagery, and iconography all play a vital role in this regard. With only a few days left, I was tasked with establishing a visual baseline for Ariva, and translating all wireframes into high fidelity comps.
 
-These mockups also gave us another great opportunity for more user testing. We wanted to guage emotional responses to specific types of imagery, color combinations, and language.
+These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>
 <br>
 ## <span style="color: black;">How about that onboarding</span>
@@ -96,7 +140,7 @@ An integral part of any move is finding a home to live in. Looking back at our r
 
 The goal here is to dynamically filter out content based off the user preferences set by the onboarding process. For example, Sean (one of our user personas) is looking to upsize his current home in preparation for his brand new baby. Ariva would determine that school quality and location is probably an important factor going forward, and adjust the map accordingly based off of those criteria. Same scenario with housing, when Sean wants to see his housing options, he'll be presented with the best fit using his preferences.
 
-These mockups also gave us another great opportunity for more user testing. We wanted to guage emotional responses to specific types of imagery, color combinations, and language.
+These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>
 <br>
 ## <span style="color: black;">Results</span>

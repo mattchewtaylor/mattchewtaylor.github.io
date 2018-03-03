@@ -24,8 +24,12 @@ layout: default
     </div>
   </div>
 
+  <!-- Fluidbox -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery.fluidbox.min.js"></script>
   <script>
-		MediumLightbox('figure.zoom-effect', {
-			//margin:300
-		});
-	</script>
+    $(function () {
+      $('.fluidbox-container a').fluidbox();
+    })
+  </script>
