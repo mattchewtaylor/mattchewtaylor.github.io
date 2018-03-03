@@ -7,6 +7,13 @@ permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 ---
 <!--excerpt-->
+## <span style="color: #FA6695;">*Before we begin*</span>
+<span style="color: #FA6695;">
+  *This is an older case study that I completed during my time at General Assembly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.*
+</span>
+<br>
+<br>
+## <span style="color: black;">Introduction</span>
 Etsy provides a place for makers to sell their goods and reach a large audience. There are many talented individuals who are specially skilled in certain areas. Customers can search for the items they’re looking for, but sometimes they have a product in mind that they’d like created for them. My team created a concept that allows customers to post product requests and receive quotes from various artisans, as well as promote healthy collaboration between the two parties.
 <br>
 <br>

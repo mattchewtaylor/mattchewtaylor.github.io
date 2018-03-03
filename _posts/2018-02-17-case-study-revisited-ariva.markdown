@@ -13,7 +13,9 @@ custom-js:
 ---
 <!--excerpt-->
 ## <span style="color: #FA6695;">*Before we begin*</span>
-<span style="color: #FA6695;">*This is an older case study that I completed during my time at General Assmebly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.*</span>
+<span style="color: #FA6695;">
+  *This is an older case study that I completed during my time at General Assembly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.*
+</span>
 <br>
 <br>
 ## <span style="color: black;">Introduction</span>
@@ -68,8 +70,8 @@ After compiling our data, we reached out to our respondents for follow up interv
 At this point, we've built ourselves a solid foundation to begin the design process. We organized all the data gathered during the research phase into an affinity map. The objective was to try and spot any obvious behavioral patterns and establish a visual representation of shared pain points. We took the affinity map and crafted three user personas that represented our target user base.
 
 <div class="fluidbox-container">
-  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" title="">
-    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" alt="" title="" />
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" title="Personas">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" alt="Image showing three personas." title="Personas" />
   </a>
 </div>
 
@@ -79,38 +81,30 @@ After finalizing our personas, we developed a set of user stories to address the
 ## <span style="color: black;">Designing the experience</span>
 Onboarding as a concept is overused and often executed poorly. We did it anyway. The Ariva matching service needed a specific set of personal data to function properly and we needed to develop a system that captured said data. To make matters a little more complex, we had to devise a way to keep our movers engaged and ensure their information was being used in a meaningful way.
 
-We scheduled a follow-up meeting with the co-founders to get a better understanding of their process and the information they needed (and wanted) from clients. We left with a flash drive and a massive binder. After scouring through piles of documents for what seemed like an eternity, we formed a list of questions that served as a base for the onboarding.
-
-<figure class="w-50 fl pa2 zoom-effect border-box">
-  <div class="aspectRatioPlaceholder">
-    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
-    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png">
-  </div>
-</figure>
-
-<figure class="w-50 fl pa2 zoom-effect border-box">
-  <div class="aspectRatioPlaceholder">
-    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
-    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png">
-  </div>
-</figure>
-
-<figure class="w-50 fl pa2 zoom-effect border-box">
-  <div class="aspectRatioPlaceholder">
-    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
-    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png">
-  </div>
-</figure>
-
-<figure class="w-50 fl pa2 zoom-effect border-box">
-  <div class="aspectRatioPlaceholder">
-    <div class="aspect-ratio-fill" style="padding-bottom: 56.25%;"></div>
-    <img class="img" data-width="1600" data-height="900" src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png">
-  </div>
-</figure>
-
+We scheduled a follow-up meeting with the co-founders to get a better understanding of their process and the information they needed (and wanted) from clients. We left with a flash drive and a *massive* binder. After scouring through piles of documents for what seemed like an eternity, we formed a list of questions that served as a base for the onboarding.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png" title="Searching">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png" alt="Person searching through documents." title="Searching" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png" title="Searching">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png" alt="Person searching through documents." title="Searching" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png" title="Searching">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png" alt="Person searching through documents." title="Searching" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png" title="Searching">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png" alt="Person searching through documents." title="Searching" />
+  </a>
+</div>
+<p class="tc f6">Searching through an endless amount of files...</p>
+<div class="cf"></div>
 ## <span style="color: black;">Screen first</span>
 Ariva is starting it's journey as a desktop web app. There's a lot of functionality happening behind the scenes that require a lot of input from the user, and significant screen real estate for effective output. From our interviews with both the founders and clientele – we determined that a mobile device was not optimal nor necessary to design for at that time. However, by keeping a responsive layout in mind and using a modular, component based approach to our design – we can make that eventual transition to a smaller size as painless as possible.
 <br>
