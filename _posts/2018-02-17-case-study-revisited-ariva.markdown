@@ -49,8 +49,17 @@ My team had 3 weeks to design a feature set and UI for Ariva's new web app. The 
 ## <span style="color: black;">Gathering data</span>
 I lead the research phase by first conducting a large user survey to capture some bulk data. Looking at the results, I paid close attention to how frequently people were moving within a certain time period, the tools they used to assist them, and the reasons why they decided to move. Once I had enough data, I passed along my findings to the rest of the team. From there we started a competitive analysis and established market positioning.
 <br>
-<br>
-![Survey showing the number of times people moved within a year.](../assets/img/posts/02-case-study-revisited-ariva/ariva-survey-1.png){: .fl .w-100 .w-50-ns .pr3 .border-box} ![Survey showing what tools they used to help them move.](../assets/img/posts/02-case-study-revisited-ariva/ariva-survey-2.png){: .fl .w-100 .w-50-ns .pl3 .border-box}
+<div class="fluidbox-container w-100 w-50-ns fl ph2 pb4 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-survey-1.png" title="Survey">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-survey-1.png" alt="# of times people moved." title="Survey" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph2 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-survey-2.png" title="Survey">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-survey-2.png" alt="Tools people used to move." title="Survey" />
+  </a>
+</div>
+<p class="tc f6">Surveys showing how often people have moved within the last 5 years and the tools used.</p>
 <div class="cf"></div>
 
 ## <span style="color: black;">Synthesis</span>
@@ -68,12 +77,24 @@ After compiling our data, we reached out to our respondents for follow up interv
 
 ## <span style="color: black;">Telling the story</span>
 At this point, we've built ourselves a solid foundation to begin the design process. We organized all the data gathered during the research phase into an affinity map. The objective was to try and spot any obvious behavioral patterns and establish a visual representation of shared pain points. We took the affinity map and crafted three user personas that represented our target user base.
-
-<div class="fluidbox-container">
-  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" title="Personas">
-    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-personas.png" alt="Image showing three personas." title="Personas" />
+<br>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-persona-sean.png" title="Persona">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-persona-sean.png" alt="First user persona, Sean" title="Persona" />
   </a>
 </div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-persona-natalie.png" title="Persona">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-persona-natalie.png" alt="Second user persona, Natalie" title="Persona" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-persona-jordan.png" title="Persona">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-persona-jordan.png" alt="Third user persona, Jordan" title="Persona" />
+  </a>
+</div>
+<p class="tc f6">Sean the family man; Natalie the serial mover; Jordan the new grad.</p>
+<div class="cf"></div>
 
 After finalizing our personas, we developed a set of user stories to address the common pain points. We created user flows in Axure to map out various experiences the users can expect to have when interacting with the Ariva web app. Ideally, we wanted to create a flow that directed new users through a planning phase (organizing, creating checklists, etc), an execution phase (finding a home), and an integration phase (settling in your new community). However, we recognized that not all our personas needed to follow such a linear path, so we also created flows that allow users to access each phase individually.
 <br>
@@ -83,28 +104,29 @@ Onboarding as a concept is overused and often executed poorly. We did it anyway.
 
 We scheduled a follow-up meeting with the co-founders to get a better understanding of their process and the information they needed (and wanted) from clients. We left with a flash drive and a *massive* binder. After scouring through piles of documents for what seemed like an eternity, we formed a list of questions that served as a base for the onboarding.
 <br>
-<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png" title="Searching">
     <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-1.png" alt="Person searching through documents." title="Searching" />
   </a>
 </div>
-<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png" title="Searching">
     <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-2.png" alt="Person searching through documents." title="Searching" />
   </a>
 </div>
-<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png" title="Searching">
     <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-3.png" alt="Person searching through documents." title="Searching" />
   </a>
 </div>
-<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png" title="Searching">
     <img src="../assets/img/posts/02-case-study-revisited-ariva/02-doc-4.png" alt="Person searching through documents." title="Searching" />
   </a>
 </div>
 <p class="tc f6">Searching through an endless amount of files...</p>
 <div class="cf"></div>
+
 ## <span style="color: black;">Screen first</span>
 Ariva is starting it's journey as a desktop web app. There's a lot of functionality happening behind the scenes that require a lot of input from the user, and significant screen real estate for effective output. From our interviews with both the founders and clientele – we determined that a mobile device was not optimal nor necessary to design for at that time. However, by keeping a responsive layout in mind and using a modular, component based approach to our design – we can make that eventual transition to a smaller size as painless as possible.
 <br>
@@ -112,27 +134,102 @@ Ariva is starting it's journey as a desktop web app. There's a lot of functional
 ## <span style="color: black;">Sketch time</span>
 I began sketching various layouts and played around with different design approaches. I started with the onboarding process and followed the linear path we created in our user flows. After a few iterations of sketching, I organized a design studio with the rest of my team to get all of our ideas out onto paper. After a lot of back and forth, we finally started to refine the feature set into something a little more concrete. The session ended with a fleshed out onboarding system, a first iteration interactive task manager (more on this later), and a first iteration "neighborhood match" page.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-1.png" title="Sketch">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-1.png" alt="" title="Sketch" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-2.png" title="Sketch">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-2.png" alt="" title="Sketch" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-3.png" title="Sketch">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-3.png" alt="" title="Sketch" />
+  </a>
+</div>
+<p class="tc f6">First round of onboarding sketches. Pens added for dramatic effect.</p>
+<div class="cf"></div>
+
 ## <span style="color: black;">Wireframing & testing</span>
 This is where it gets fun. We started to incorporate some lean UX principles into our design process, test early and test often. I hit the ground running and quickly turned the rough sketches of our neighborhood match page into digital wireframes. Like the sketches, these wireframes were intended to be rough so we could test the navigational structure and layout comprehension. We tested these pages alongside the onboarding to give our users some contextual background.
 
 The feedback was positive! The onboarding was less intrusive than we had anticipated, and our users felt they were provided actual value from their input. Success!
 <br>
-<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-wireframe-1.png" title="Wireframes">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-wireframe-1.png" alt="" title="Wireframes" />
+  </a>
+</div>
+<p class="tc f6 pb3">Wireframe iterations of the "neighborhood match" screen.</p>
+
 ## <span style="color: black;">The good stuff</span>
 The main objective for the neighborhood matching feature is to encapsulate the essence of specific neighborhoods and districts. Color, imagery, and iconography all play a vital role in this regard. With only a few days left, I was tasked with establishing a visual baseline for Ariva, and translating all wireframes into high fidelity comps.
 
 These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>
-<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-1.png" title="High-fidelity mocks">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-1.png" alt="" title="High-fidelity mocks" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-2.png" title="High-fidelity mocks">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-2.png" alt="" title="High-fidelity mocks" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl0 pl2-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-3.png" title="High-fidelity mocks">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-hifi-3.png" alt="" title="High-fidelity mocks" />
+  </a>
+</div>
+<p class="tc f6 pb3">Hifi mocks of the neighborhood match screen for D.C.</p>
+<div class="cf"></div>
+
 ## <span style="color: black;">How about that onboarding</span>
 I'll say it again, onboarding kind of sucks. Usually there are better ways around it. In our specific scenario, however, that just wasn't the case. Even trivial questions such as age prove to be a powerful asset (younger residents tend to live closer to the city center, older residents are more towards the outskirts). But Ariva is looking at more than just age and budget, it's learning your personality so it can find the perfect lifestyle fit.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-1.png" title="Onboarding flow">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-1.png" alt="Onboarding flow; step 1." title="Onboarding flow" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-2.png" title="Onboarding flow">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-2.png" alt="Onboarding flow; step 2." title="Onboarding flow" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-3.png" title="Onboarding flow">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-3.png" alt="Onboarding flow; step 3." title="Onboarding flow" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-4.png" title="Onboarding flow">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-onboard-4.png" alt="Onboarding flow; step 4." title="Onboarding flow" />
+  </a>
+</div>
+<p class="tc f6">Hifi mocks of the initial onboarding flow/questionnaire.</p>
+<div class="cf"></div>
+
 ## <span style="color: black;">Mapbox integration</span>
 An integral part of any move is finding a home to live in. Looking back at our research, it was often the very first thing people did when deciding to move. Ariva recognized an opportunity to integrate with Mapbox to allow users to browse through real listings right from the Ariva web app. We implemented a high level version of what this might look like into the neighborhood match page.
 
 The goal here is to dynamically filter out content based off the user preferences set by the onboarding process. For example, Sean (one of our user personas) is looking to upsize his current home in preparation for his brand new baby. Ariva would determine that school quality and location is probably an important factor going forward, and adjust the map accordingly based off of those criteria. Same scenario with housing, when Sean wants to see his housing options, he'll be presented with the best fit using his preferences.
+<br>
+<div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-map-1.png" title="Mapbox integration">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-map-1.png" alt="" title="Mapbox integration; map view" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl0 pl2-ns">
+  <a href="../assets/img/posts/02-case-study-revisited-ariva/02-map-2.png" title="Mapbox integration">
+    <img src="../assets/img/posts/02-case-study-revisited-ariva/02-map-2.png" alt="" title="Mapbox integration; real estate detail modal" />
+  </a>
+</div>
+<p class="tc f6 pb3">Dynamically filter through a variety of options and view real estate listings.</p>
+<div class="cf"></div>
 
 These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>

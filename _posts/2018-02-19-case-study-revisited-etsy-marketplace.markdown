@@ -1,10 +1,15 @@
 ---
 layout: post
 title: "Case study revisited: Etsy Marketplace"
-img: ../assets/img/posts/01-introducing-my-blog/vol-1-hero.png
+img: ../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-hero.png
 date: 2018-02-19
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
+custom-css:
+  - post
+  - fluidbox.min
+custom-js:
+  - jquery.fluidbox.min
 ---
 <!--excerpt-->
 ## <span style="color: #FA6695;">*Before we begin*</span>
@@ -57,39 +62,138 @@ Some excerpts from our interviews:
 > <span style="color: black; font-weight: 700;">Q:  How did you collaborate with the shop owner? Was there any brainstorming involved? </span>
 
 > <span style="color: mid-gray;">*A:  "Mostly through email, I sent over some pictures of something similar and we just took it from there."* </span>
-
 <br>
+<br>
+
 ## <span style="color: black;">Telling the story</span>
 We sorted our data from the research phase into two main archetypes; the buyer and the artisan. After identifying patterns in the responses we received we then used the two personas to craft user stories and flow diagrams.
 <br>
-<br>
-#### <span style="color: black;">Buyer</span>
-Sarah is a 23 year old elementary school teacher that is preparing to start a new school year. She wants to order custom name blocks for her class to help them with seating arrangements and with learning each other's names. Class starts next month so she needs to ensure the blocks will be error free and ready on a tight deadline.
+<div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-sarah.png" title="Persona">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-sarah.png" alt="" title="Persona" />
+  </a>
+  <p class="tc f6 mt0 pb3">The buyer persona, Sarah.</p>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl0 pl2-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-tim.png" title="Persona">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-tim.png" alt="" title="Persona" />
+  </a>
+  <p class="tc f6 mt0 pb3">The artisan persona, Tim.</p>
+</div>
+<div class="cf"></div>
 
-#### <span style="color: black;">Artisan</span>
+#### <span style="color: #99CCFF;">Buyer</span>
+Sarah is a 23 year old elementary school teacher that is preparing to start a new school year. She wants to order custom name blocks for her class to help them with seating arrangements and with learning each other's names. Class starts next month so she needs to ensure the blocks will be error free and ready on a tight deadline.
+<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" title="User flow; buyer">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" alt="" title="User flow; buyer" />
+  </a>
+</div>
+<p class="tc f6 pb3">Initial iteration of the "buyer" user flow.</p>
+
+#### <span style="color: #CC6666;">Artisan</span>
 Tim is business analyst by day, but a talented woodworker by night. He's looking to grow his woodworking business in hopes that one day he can turn into a full time job. Tim is a busy guy so he needs to be able to communicate with his customers on the go. He's always on the hunt for new and exciting projects.
 <br>
-<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" title="User flow; artisan">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" alt="" title="User flow; artisan" />
+  </a>
+</div>
+<p class="tc f6 pb3">Initial iteration of the "artisan" user flow.</p>
+
 ## <span style="color: black;">Designing the experience</span>
 Once we felt confident in our user stories and flow diagrams, I lead the design effort by sketching out a few intial layouts for sending and receiving project requests. On the buyer side, we needed to develop a way to assist the users in figuring out exactly what they want, even without any prior knowledge of the creation process. To make matters even more complex, we had to figure out a way to match the product request with suitable artisans who could provide accurate quotes.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-1.png" title="Sketch">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-1.png" alt="Sketch" title="Sketch" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 ph0 pl1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-2.png" title="Sketch">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-2.png" alt="Sketch" title="Sketch" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-3.png" title="Sketch">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-3.png" alt="Sketch" title="Sketch" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl ph0 pl1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-4.png" title="Sketch">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-4.png" alt="Sketch" title="Sketch" />
+  </a>
+</div>
+<p class="tc f6">Initial layout iterations for project listings and request screens.</p>
+<div class="cf"></div>
+
 ## <span style="color: black;">Wireframing</span>
 After getting some ideas down on paper, we began the wireframing process with the product request. We needed to design a method that allows the buyer to describe what they want in full detail, or guide them through the process if they're not quite sure. We settled on a hybrid form that first asks a series of basic questions to help categorize the request (product type, budget, shipping location, etc), then proceeds into more open ended questions to allow the buyer to add their personal touch (who is this for, what is this for, etc).
 
 Additionally, we also included a feature that allows the buyer to upload sources of inspiration, and even reference other Etsy products in an effort to expedite the brainstorming process.
+<br>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-1.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-1.png" alt="" title="Wireframe" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-2.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-2.png" alt="" title="Wireframe" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-3.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-3.png" alt="" title="Wireframe" />
+  </a>
+</div>
+<div class="cf"></div>
 
 Moving over to the artisan side of our flow, we elected to create a sort of "reverse auction" concept. After some intial testing, we found that simply matching buyers with artisans by the highest bidder methodology left too much room for spam, and favored the larger and more established Etsy shop owners. We devised a system that allows the artisan to actively seek new project requests, and choose the requests that interest them the most. When an artisan has expressed interest in a project, we'll go ahead and open up the lines of communication so both parties can negotiate price and clear up any unanswered questions (we'll cover this in just a bit!).
 
 Ultimately, we wanted this system to put both the buyer and artisan on the same level to ensure quality matches and provide the best experience for both sides.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-25-ns fl ph0 pr1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-find-request-1.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-find-request-1.png" alt="Wireframe" title="Wireframe" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-25-ns fl ph0 ph0 pl1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-request-listing-2.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-request-listing-2.png" alt="Wireframe" title="Wireframe" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-25-ns fl ph0 pr1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-brief-overview-3.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-brief-overview-3.png" alt="Wireframe" title="Wireframe" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-25-ns fl ph0 pl1-ns pb1 pb0-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-project-accept-4.png" title="Wireframe">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-project-accept-4.png" alt="Wireframe" title="Wireframe" />
+  </a>
+</div>
+<p class="tc f6">Project overview/search > Project listing > Project brief > Confirmation.</p>
+<div class="cf"></div>
+
 ## <span style="color: black;">Promoting collaboration</span>
 Communication plays an essential role in this process. We can attempt to automate as much as possible using technology but when it comes to communicating abstract ideas, there's no better way than human to human contact. The current tool is a simple email service connected with your Etsy account, but we wanted to implement something a little more robust. Together, we designed a real time messaging feature integrated alongside the project brief that provides a clear communication path and serves as a hub for important notifications.
 <br>
-<br>
+<div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-message-1.png" title="Messaging screen">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-message-1.png" alt="" title="Messaging screen" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl0 pl2-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-message-2.png" title="Messaging screen">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-message-2.png" alt="" title="Messaging screen" />
+  </a>
+</div>
+<p class="tc f6">Messaging + quote notification.</p>
+<div class="cf"></div>
 ## <span style="color: black;">Prototype & testing</span>
-We created a quick prototype in InVision and conducted a few rounds of user testing. We focused on the navigational structure and general user engagement throughout both the buyer and artisan flows. We took diligent notes and carefully listened to the feedback, iterating after every round. We kept the prototype in a low-medium fidelity state to cut down on design time and eliminate any visual bias. [link]
+We created a quick prototype in InVision and conducted a few rounds of user testing. We focused on the navigational structure and general user engagement throughout both the buyer and artisan flows. We took diligent notes and carefully listened to the feedback, iterating after every round. We kept the prototype in a low-medium fidelity state to cut down on design time and eliminate any visual bias. [View the prototype](https://invis.io/GN84O5HVB#/164678223_Find_Projects)
 <br>
 <br>
 ## <span style="color: black;">Next steps</span>
