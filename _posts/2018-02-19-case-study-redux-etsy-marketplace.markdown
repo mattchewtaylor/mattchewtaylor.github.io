@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Case study revisited: Etsy Marketplace"
+title: "Case study redux: Etsy Marketplace"
 img: ../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-hero.png
 date: 2018-02-19
+category: Case study
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 custom-css:
@@ -18,14 +19,18 @@ custom-js:
 </span>
 <br>
 <br>
-## <span style="color: black;">Introduction</span>
+
+# <span style="color: black;">Introduction</span>
+## <span style="color: black;">Project overview</span>
 Etsy provides a place for makers to sell their goods and reach a large audience. There are many talented individuals who are specially skilled in certain areas. Customers can search for the items they’re looking for, but sometimes they have a product in mind that they’d like created for them. My team created a concept that allows customers to post product requests and receive quotes from various artisans, as well as promote healthy collaboration between the two parties.
 <br>
 <br>
+
 ## <span style="color: black;">The mission</span>
 As a global marketplace leader that specializes in handmade items, Etsy wants to broaden its customer base even further through custom services. Our team was given 2 weeks to design a feature set and accompanying UI that allows Etsy users to post custom order requests and receive quotes from suitable Etsy shop owners. The feature set should be able to seamlessly integrate with Etsy's current website and mobile app.
 <br>
 <br>
+
 ## <span style="color: black;">Considerations</span>
 There are many important aspects our team needed to take into consideration before beginning our research, and even more afterwards.
 * What sort of time constraints should be placed on requests
@@ -43,6 +48,7 @@ There are many important aspects our team needed to take into consideration befo
 <br>
 <br>
 
+# <span style="color: black;">Research</span>
 ## <span style="color: black;">Gathering data</span>
 My team began the research phase by sending out a few surveys to Etsy customers and shop owners to get a better understanding of their needs and pain points. We then expanded our audience and started to poll people that have requested custom goods (or commissioned custom artwork) in the past, whether through an online service or a local shop.
 <br>
@@ -51,21 +57,19 @@ My team began the research phase by sending out a few surveys to Etsy customers 
 After conducting the surveys, we wanted to get more qualitative data via user interviews. We sat down with a few of our respondents and talked through the current process of requesting custom orders. We also wanted to learn more about the collaboration efforts between buyer and seller. Whilst my team compiled all our user data, I went online to the official Etsy forums and opened up further discussions about the current state of custom ordering.
 
 Some excerpts from our interviews:
-> <span style="color: black; font-weight: 700;">Q:  Can you briefly describe your most recent experience with a custom order? </span>
+### <span style="color: black; font-weight: 600;">Q:  Can you briefly describe your most recent experience with a custom order?</span>
+*A:  "I wanted to get my wife a necklace with her grandmothers name engraved on it, along with her birthstone. I spent a consierable amount of time searching for an Etsy shop that specialized in custom jewelry and requested a custom order through them."*
 
-> <span style="color: mid-gray;">*A:  "I wanted to get my wife a necklace with her grandmothers name engraved on it, along with her birthstone. I spent a consierable amount of time searching for an Etsy shop that specialized in custom jewelry and requested a custom order through them."* </span>
+### <span style="color: black; font-weight: 600;">Q:  What aspects were frustrating about your ordering process?</span>
+*A:  "Time was the big one for me.  Between searching for the right jeweler and going back and forth trying to get the perfect necklace... I just felt exhausted by the time it was finally finished."*
 
-> <span style="color: black; font-weight: 700;">Q:  What aspects were frustrating about your ordering process? </span>
-
-> <span style="color: mid-gray;">*A:  "Time was the big one for me.  Between searching for the right jeweler and going back and forth trying to get the perfect necklace... I just felt exhausted by the time it was finally finished."* </span>
-
-> <span style="color: black; font-weight: 700;">Q:  How did you collaborate with the shop owner? Was there any brainstorming involved? </span>
-
-> <span style="color: mid-gray;">*A:  "Mostly through email, I sent over some pictures of something similar and we just took it from there."* </span>
+### <span style="color: black; font-weight: 600;">Q:  How did you collaborate with the shop owner? Was there any brainstorming involved?</span>
+*A:  "Mostly through email, I sent over some pictures of something similar and we just took it from there."*
 <br>
 <br>
 
-## <span style="color: black;">Telling the story</span>
+# <span style="color: black;">Telling the story</span>
+## <span style="color: black;">User personas</span>
 We sorted our data from the research phase into two main archetypes; the buyer and the artisan. After identifying patterns in the responses we received we then used the two personas to craft user stories and flow diagrams.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
@@ -102,7 +106,8 @@ Tim is business analyst by day, but a talented woodworker by night. He's looking
 </div>
 <p class="tc f6 pb3">Initial iteration of the "artisan" user flow.</p>
 
-## <span style="color: black;">Designing the experience</span>
+# <span style="color: black;">Designing the experience</span>
+## <span style="color: black;">Sketching</span>
 Once we felt confident in our user stories and flow diagrams, I lead the design effort by sketching out a few intial layouts for sending and receiving project requests. On the buyer side, we needed to develop a way to assist the users in figuring out exactly what they want, even without any prior knowledge of the creation process. To make matters even more complex, we had to figure out a way to match the product request with suitable artisans who could provide accurate quotes.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
@@ -196,6 +201,8 @@ Communication plays an essential role in this process. We can attempt to automat
 We created a quick prototype in InVision and conducted a few rounds of user testing. We focused on the navigational structure and general user engagement throughout both the buyer and artisan flows. We took diligent notes and carefully listened to the feedback, iterating after every round. We kept the prototype in a low-medium fidelity state to cut down on design time and eliminate any visual bias. [View the prototype](https://invis.io/GN84O5HVB#/164678223_Find_Projects)
 <br>
 <br>
+
+# <span style="color: black;">Conclusion</span>
 ## <span style="color: black;">Next steps</span>
 Quite a bit actually. Our testing and feedback was positive throughout most stages of the feature set. We're headed in the right direction and have a solid MVP to begin scaling up to desktop size. Once the desktop versions have been tested and validated we can start to transition into higher fidelity comps and prototypes.
 

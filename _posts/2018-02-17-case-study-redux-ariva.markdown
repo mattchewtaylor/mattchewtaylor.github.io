@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Case study revisited: Ariva"
+title: "Case study redux: Ariva"
 img: ../assets/img/posts/02-case-study-revisited-ariva/02-hero.png
 date: 2018-02-17
+category: Case study
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 custom-css:
@@ -18,18 +19,23 @@ custom-js:
 </span>
 <br>
 <br>
-## <span style="color: black;">Introduction</span>
+
+# <span style="color: black;">Introduction</span>
+## <span style="color: black;">Project overview</span>
 Moving is tough. Whether it's for a new job or just wanting to be closer to family, there are many factors that go into planning and executing a big move. My team and I designed a web app that matches users with suitable neighborhoods and provides them with an array of resources to assist throughout their decision making process.
 <br>
 <br>
+
 ## <span style="color: black;">The mission</span>
 Ariva is the brain child of two extraordinarily talented relocation specialists. For over 20 years, they have been helping people all around the world relocate and settle into the Washington metropolitan area. The job (and process) is exhaustive, tedious, and antiquated. Together, the co-founders are looking to develop a web app that automates a majority of their patented process.
 <br>
 <br>
+
 ## <span style="color: black;">Project goals</span>
 My team had 3 weeks to design a feature set and UI for Ariva's new web app. The goal was to have something ready to develop within 3-6 months time after "handoff". During the initial consultation with the client, it was evident that the original scope far exceeded what was possible in 3 weeks. Ariva is looking to cover nearly every aspect of moving, from basic needs like switching your driver's license, to more complex concerns like identifying the right community to match your style of living. We spent a considerable amount of time narrowing our focus and fleshing out the core functionality for an MVP. From there, we established our design objectives.
 <br>
 <br>
+
 ## <span style="color: black;">Design objectives</span>
 * Create an "onboarding" process to capture relevant user data
 * Design a UI that houses the results of the neighborhood matching service
@@ -46,6 +52,7 @@ My team had 3 weeks to design a feature set and UI for Ariva's new web app. The 
 <br>
 <br>
 
+# <span style="color: black;">Research</span>
 ## <span style="color: black;">Gathering data</span>
 I lead the research phase by first conducting a large user survey to capture some bulk data. Looking at the results, I paid close attention to how frequently people were moving within a certain time period, the tools they used to assist them, and the reasons why they decided to move. Once I had enough data, I passed along my findings to the rest of the team. From there we started a competitive analysis and established market positioning.
 <br>
@@ -66,6 +73,7 @@ I lead the research phase by first conducting a large user survey to capture som
 After compiling our data, we reached out to our respondents for follow up interviews. We wanted to talk to the people that were frequently relocating and discover the root cause behind these moves. We also noticed a majority of our respondents elected to use local friends as a sole means of finding a place to live, even over the plethora of resources available online. My team and I found that to be a bit puzzling, and was something we needed to explore further.
 <br>
 <br>
+
 ## <span style="color: black;">Key takeaways</span>
 * 40% of respondents were moving because of a new job or school
 * 30% were moving simply because they were dissatisfied with their current place
@@ -75,7 +83,8 @@ After compiling our data, we reached out to our respondents for follow up interv
 <br>
 <br>
 
-## <span style="color: black;">Telling the story</span>
+# <span style="color: black;">Telling the story</span>
+## <span style="color: black;">User personas</span>
 At this point, we've built ourselves a solid foundation to begin the design process. We organized all the data gathered during the research phase into an affinity map. The objective was to try and spot any obvious behavioral patterns and establish a visual representation of shared pain points. We took the affinity map and crafted three user personas that represented our target user base.
 <br>
 <div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
@@ -96,10 +105,13 @@ At this point, we've built ourselves a solid foundation to begin the design proc
 <p class="tc f6">Sean the family man; Natalie the serial mover; Jordan the new grad.</p>
 <div class="cf"></div>
 
+## <span style="color: black;">User journeys</span>
 After finalizing our personas, we developed a set of user stories to address the common pain points. We created user flows in Axure to map out various experiences the users can expect to have when interacting with the Ariva web app. Ideally, we wanted to create a flow that directed new users through a planning phase (organizing, creating checklists, etc), an execution phase (finding a home), and an integration phase (settling in your new community). However, we recognized that not all our personas needed to follow such a linear path, so we also created flows that allow users to access each phase individually.
 <br>
 <br>
-## <span style="color: black;">Designing the experience</span>
+
+# <span style="color: black;">Designing the experience</span>
+## <span style="color: black;">Onboarding</span>
 Onboarding as a concept is overused and often executed poorly. We did it anyway. The Ariva matching service needed a specific set of personal data to function properly and we needed to develop a system that captured said data. To make matters a little more complex, we had to devise a way to keep our movers engaged and ensure their information was being used in a meaningful way.
 
 We scheduled a follow-up meeting with the co-founders to get a better understanding of their process and the information they needed (and wanted) from clients. We left with a flash drive and a *massive* binder. After scouring through piles of documents for what seemed like an eternity, we formed a list of questions that served as a base for the onboarding.
@@ -131,6 +143,7 @@ We scheduled a follow-up meeting with the co-founders to get a better understand
 Ariva is starting it's journey as a desktop web app. There's a lot of functionality happening behind the scenes that require a lot of input from the user, and significant screen real estate for effective output. From our interviews with both the founders and clientele – we determined that a mobile device was not optimal nor necessary to design for at that time. However, by keeping a responsive layout in mind and using a modular, component based approach to our design – we can make that eventual transition to a smaller size as painless as possible.
 <br>
 <br>
+
 ## <span style="color: black;">Sketch time</span>
 I began sketching various layouts and played around with different design approaches. I started with the onboarding process and followed the linear path we created in our user flows. After a few iterations of sketching, I organized a design studio with the rest of my team to get all of our ideas out onto paper. After a lot of back and forth, we finally started to refine the feature set into something a little more concrete. The session ended with a fleshed out onboarding system, a first iteration interactive task manager (more on this later), and a first iteration "neighborhood match" page.
 <br>
@@ -164,7 +177,8 @@ The feedback was positive! The onboarding was less intrusive than we had anticip
 </div>
 <p class="tc f6 pb3">Wireframe iterations of the "neighborhood match" screen.</p>
 
-## <span style="color: black;">The good stuff</span>
+# <span style="color: black;">The good stuff</span>
+## <span style="color: black;">High fidelity design</span>
 The main objective for the neighborhood matching feature is to encapsulate the essence of specific neighborhoods and districts. Color, imagery, and iconography all play a vital role in this regard. With only a few days left, I was tasked with establishing a visual baseline for Ariva, and translating all wireframes into high fidelity comps.
 
 These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
@@ -234,6 +248,8 @@ The goal here is to dynamically filter out content based off the user preference
 These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>
 <br>
+
+# <span style="color: black;">Conclusion</span>
 ## <span style="color: black;">Results</span>
 Our client was beyond thrilled with what our team managed to design in the 3 week sprint. It was a properly challenging experience, yet we managed to validate a metric ton of research and solve for many common pain points associated with relocation. Development is already underway and we expect to see parts of the onboarding process and the neighborhood matcher implemented within 6 months time.
 <br>
