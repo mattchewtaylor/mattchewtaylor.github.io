@@ -3,7 +3,7 @@ layout: post
 title: "Introducing... my blog!"
 img: ../assets/img/posts/01-introducing-my-blog/01-hero.png
 date: 2017-11-17
-category: Blog post
+category: Journal
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 ---

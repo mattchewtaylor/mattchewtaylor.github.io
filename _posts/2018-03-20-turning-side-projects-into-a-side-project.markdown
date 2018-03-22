@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Building a better checkout"
+title: "Turning side projects into a side project"
 img: ../assets/img/posts/04-building-a-better-checkout/placeholder.png
 date: 2018-03-12
-category: Case study
+category: Article
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
 custom-css:

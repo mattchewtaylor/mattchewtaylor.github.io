@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Building a better checkout"
+title: "Creating investment goals"
 img: ../assets/img/posts/04-building-a-better-checkout/placeholder.png
-date: 2018-03-12
+date: 2018-03-21
 category: Case study
 permalink: /writing/:title
 excerpt_separator: <!--excerpt-->
