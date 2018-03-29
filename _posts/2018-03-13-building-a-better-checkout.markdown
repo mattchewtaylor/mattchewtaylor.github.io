@@ -14,7 +14,7 @@ custom-js:
 ---
 <!--excerpt-->
 ## <span style="color: black;">Note on terminology</span>
-The “checkout” process – where users choose a plan and invest their money accordingly – is the final touchpoint before officially becoming an investor on the Fundrise platform. Internally, we try our hardest to refrain from calling it a “checkout” because it’s not technically (or even legally) correct – but it shares many similarities with the typical end-stage flow you would see with any normal ecommerce site. For brevity, I will still refer to this feature as a “checkout” throughout this case study.
+The “checkout” process – where users choose a plan and invest their money accordingly – is the final touchpoint before officially becoming an investor on the [company] platform. Internally, we try our hardest to refrain from calling it a “checkout” because it’s not technically (or even legally) correct – but it shares many similarities with the typical end-stage flow you would see with any normal ecommerce site. For brevity, I will still refer to this feature as a “checkout” throughout this case study.
 <br>
 <br>
 
@@ -23,7 +23,7 @@ The “checkout” process – where users choose a plan and invest their money 
 The checkout flow was one of the few parts of the platform that suffered from the age old “if it ain’t broke don’t fix it” mindset. It was one of the longest standing set of pages to go untouched throughout the many different product pivots. It did its job of taking a motivated investor and guiding them through the process of setting up an account and investing their money. But, could we make it better?
 <br>
 <br>
-At the time of this project, we were preparing to launch the goal based investment plans – a pivot that set the underlying skeleton for what would become Fundrise today. The design team was tasked to validate and address a few usability concerns (from stakeholders and users) with the old investor flow and bring it into the present day along with the rest of the product – making sure to incorporate the new goal-based plans.
+At the time of this project, we were preparing to launch the goal based investment plans – a pivot that set the underlying skeleton for what would become [company] today. The design team was tasked to validate and address a few usability concerns (from stakeholders and users) with the old investor flow and bring it into the present day along with the rest of the product – making sure to incorporate the new goal-based plans.
 <br>
 <br>
 
@@ -219,15 +219,15 @@ Time & resource permitting:
 
 # <span style="color: black;">Analysis: Part II</span>
 ## <span style="color: black;">Competitor survey</span>
-Armed with an outline for the MVP – I took to the internet to perform a quick analysis on a few indirect (and bigger) competitors in the fintech space. Nothing terribly fancy here, I was looking at a few basic heuristics such as:
+Armed with an outline for the MVP – I took to the internet to perform a quick analysis on a few direct and indirect competitors in the fintech space. Nothing terribly fancy here, I was looking at a few basic heuristics such as:
 * How easy / how much time did it take to accomplish my goal (of investing)?
 * Was the navigation and page layout consistent and easy to understand?
 * Were there feedback channels? Were they discoverable? Useful?
 * What was the primary tone and voice throughout my interactions? How did I feel?
 <br>
 <div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
-    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-overview.png">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-overview.png" alt="" />
   </a>
 </div>
 <p class="tc f6 pb3">Placeholder</p>
@@ -240,8 +240,18 @@ There were a lot of things each competitor did well and... not so well. Througho
 Great care was taken to ensure the user felt comfortable and in control. Through the use of voice, tone, and visual iconography, the UI's were able to communicate safety and security during sensitive input steps. A must for any financial service.
 <br>
 <div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
-    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png" alt="" />
+  </a>
+</div>
+<p class="tc f6 pb3">Placeholder</p>
+
+### <span style="color: black; font-weight: 600;">Personalization was front and center</span>
+Great care was taken to ensure the user felt comfortable and in control. Through the use of voice, tone, and visual iconography, the UI's were able to communicate safety and security during sensitive input steps. A must for any financial service.
+<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png" alt="" />
   </a>
 </div>
 <p class="tc f6 pb3">Placeholder</p>

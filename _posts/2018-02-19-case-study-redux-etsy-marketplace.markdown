@@ -15,7 +15,7 @@ custom-js:
 <!--excerpt-->
 ## <span style="color: #FA6695;">*Before we begin*</span>
 <span style="color: #FA6695;">
-  *This is an older case study that I completed during my time at General Assembly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.*
+  *This is an older case study that I completed during my time at General Assembly's UX Design Immersive. Having been in product design for some time now, I thought it would be a fun and useful exercise to look back and revisit my process to see what could have been improved. This is the original, unabridged case study from two years ago – any text in pink are my present day reflections and insight.* 🖍
 </span>
 <br>
 <br>
@@ -28,6 +28,12 @@ Etsy provides a place for makers to sell their goods and reach a large audience.
 
 ## <span style="color: black;">The mission</span>
 As a global marketplace leader that specializes in handmade items, Etsy wants to broaden its customer base even further through custom services. Our team was given 2 weeks to design a feature set and accompanying UI that allows Etsy users to post custom order requests and receive quotes from suitable Etsy shop owners. The feature set should be able to seamlessly integrate with Etsy's current website and mobile app.
+<br>
+<br>
+
+<span style="color: #FA6695;">
+  *Already a pretty lofty goal, the Etsy website and mobile app have vastly different navigational structures, layouts, and cater to different user needs.* 🖍
+</span>
 <br>
 <br>
 
@@ -86,6 +92,12 @@ We sorted our data from the research phase into two main archetypes; the buyer a
 </div>
 <div class="cf"></div>
 
+<span style="color: #FA6695;">
+  *Overall, I think these were successful personas. We still didn't have enough research for fully developed, bias free archetypes — but they address two categories of people that have significantly different motivations and needs when using the product.* 🖍
+</span>
+<br>
+<br>
+
 #### <span style="color: #99CCFF;">Buyer</span>
 Sarah is a 23 year old elementary school teacher that is preparing to start a new school year. She wants to order custom name blocks for her class to help them with seating arrangements and with learning each other's names. Class starts next month so she needs to ensure the blocks will be error free and ready on a tight deadline.
 <br>
@@ -106,9 +118,15 @@ Tim is business analyst by day, but a talented woodworker by night. He's looking
 </div>
 <p class="tc f6 pb3">Initial iteration of the "artisan" user flow.</p>
 
+<span style="color: #FA6695;">
+  *These user flows were a bit premature in my opinion. We should have spent more time analyzing both Etsy's website and mobile app before creating an optimal journey. The IA and navigation are quite different in both experiences and probably warrant additional flow diagrams that take this into consideration.* 🖍
+</span>
+<br>
+<br>
+
 # <span style="color: black;">Designing the experience</span>
 ## <span style="color: black;">Sketching</span>
-Once we felt confident in our user stories and flow diagrams, I lead the design effort by sketching out a few intial layouts for sending and receiving project requests. On the buyer side, we needed to develop a way to assist the users in figuring out exactly what they want, even without any prior knowledge of the creation process. To make matters even more complex, we had to figure out a way to match the product request with suitable artisans who could provide accurate quotes.
+Once we felt confident in our user stories and flow diagrams, I lead the design effort by sketching out a few initial layouts for sending and receiving project requests. On the buyer side, we needed to develop a way to assist the users in figuring out exactly what they want, even without any prior knowledge of the creation process. To make matters even more complex, we had to figure out a way to match the product request with suitable artisans who could provide accurate quotes.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl ph0 pr1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-1.png" title="Sketch">
@@ -155,7 +173,7 @@ Additionally, we also included a feature that allows the buyer to upload sources
 </div>
 <div class="cf"></div>
 
-Moving over to the artisan side of our flow, we elected to create a sort of "reverse auction" concept. After some intial testing, we found that simply matching buyers with artisans by the highest bidder methodology left too much room for spam, and favored the larger and more established Etsy shop owners. We devised a system that allows the artisan to actively seek new project requests, and choose the requests that interest them the most. When an artisan has expressed interest in a project, we'll go ahead and open up the lines of communication so both parties can negotiate price and clear up any unanswered questions (we'll cover this in just a bit!).
+Moving over to the artisan side of our flow, we elected to create a sort of "reverse auction" concept. After some initial testing, we found that simply matching buyers with artisans by the highest bidder methodology left too much room for spam, and favored the larger and more established Etsy shop owners. We devised a system that allows the artisan to actively seek new project requests, and choose the requests that interest them the most. When an artisan has expressed interest in a project, we'll go ahead and open up the lines of communication so both parties can negotiate price and clear up any unanswered questions (we'll cover this in just a bit!).
 
 Ultimately, we wanted this system to put both the buyer and artisan on the same level to ensure quality matches and provide the best experience for both sides.
 <br>
@@ -182,6 +200,12 @@ Ultimately, we wanted this system to put both the buyer and artisan on the same 
 <p class="tc f6">Project overview/search > Project listing > Project brief > Confirmation.</p>
 <div class="cf"></div>
 
+<span style="color: #FA6695;">
+  *I stand by this design even today, but I've come to realize that this solution could still favor larger shop owners. Some of the more popular creators have multiple employees and a greater capacity to handle multiple orders. The reverse auction system does nothing to safeguard against this scenario, so I would want to test this hypothesis in depth and respond accordingly.* 🖍
+</span>
+<br>
+<br>
+
 ## <span style="color: black;">Promoting collaboration</span>
 Communication plays an essential role in this process. We can attempt to automate as much as possible using technology but when it comes to communicating abstract ideas, there's no better way than human to human contact. The current tool is a simple email service connected with your Etsy account, but we wanted to implement something a little more robust. Together, we designed a real time messaging feature integrated alongside the project brief that provides a clear communication path and serves as a hub for important notifications.
 <br>
@@ -205,15 +229,29 @@ We created a quick prototype in InVision and conducted a few rounds of user test
 # <span style="color: black;">Conclusion</span>
 ## <span style="color: black;">Next steps</span>
 Quite a bit actually. Our testing and feedback was positive throughout most stages of the feature set. We're headed in the right direction and have a solid MVP to begin scaling up to desktop size. Once the desktop versions have been tested and validated we can start to transition into higher fidelity comps and prototypes.
+<br>
+<br>
+
+<span style="color: #FA6695;">
+  *This theory makes sense on paper, but I think we failed to recognize just how different the mobile app and website experiences were (at the time). It wouldn't just be a matter of progressively enhancing the mobile prototype — but designing an entirely different structure altogether.* 🖍
+</span>
+<br>
+<br>
 
 The messaging feature is only scratching the surface of effective communication. We're giving two parties the necessary tools to collaborate, but we're not changing behavior. To solve this, we want to implement a system of checks and balances that allow the buyer to request timely status updates of their project. Ideally these updates should be in picture format for the most accurate representation of the current status. We feel this solution is a much closer step towards actively promoting collaboration.
 <br>
 <br>
-## <span style="color: black;">Challenges</span>
-Overall, this project was pretty tough. We had a difficult time finding users that accurately represented our target market, especially when it came to requesting custom goods. As a result, a few parts of the design reflected our personal bias.
-<br>
-<br>
-## <span style="color: black;">Retrospective</span>
-I would have loved more time to find quality user groups that represented our target audience. I would travel and talk to as many local shop owners as I could to better understand their creative process. Ideally I would want to sit in on actual product requests to hear the dialogue between buyer and artisan.
 
-Our team also spent too much time under the mobile constraint. We incorporated a lot of lean UX principles and had more than enough time to move into desktop design. We were so focused on getting the concept to work at the smallest possible size that we might have missed an otherwise obvious opportunity on a larger scale.
+<span style="color: #FA6695;">
+  *Preach it.* 🖍
+</span>
+<br>
+<br>
+
+## <span style="color: #FA6695;">*Retrospective*</span>
+<span style="color: #FA6695;">
+  *More time and effort into researching the audience and establishing effective personas would have worked wonders for this project. I think talking to as many local shop owners as possible and sitting in on actual requests and making note of the dialogue between parties would have been eye opening.*
+  <br>
+  <br>
+  *Our team also spent too much time under the mobile constraint. We incorporated a lot of lean UX principles and had more than enough time to move into desktop design. We were so focused on getting the concept to work at the smallest possible size that we might have missed an otherwise obvious opportunity on a larger scale.* 🖍
+  </span>
