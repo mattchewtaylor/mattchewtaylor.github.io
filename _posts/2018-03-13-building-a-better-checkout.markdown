@@ -114,7 +114,12 @@ Some questions we walked away with:
 * Which pages had the highest abandonment rate?
 * At what point did people reach out for help? Why?
 <br>
-<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-analytics-2017-24hrs.png">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-analytics-2017-24hrs.png" alt="" />
+  </a>
+</div>
+<p class="tc f6 pb3">Typical conversion rate for a 24 hour period under the old checkout flow.</p>
 
 ## <span style="color: black;">Customer support</span>
 I wanted to check for correlation between our data and any customer support cases that came through Desk (our customer support ticketing software). Doing this helped our team dig into the “why” behind the “what”. For example, I noticed a proportionally larger abandonment rate at the “Payment” step (where the user connects a bank account) in Mixpanel.
@@ -151,7 +156,7 @@ Coming in at 7 pages – the checkout flow was long when compared to most other 
     <img src="../assets/img/posts/04-building-a-better-checkout/04-old-flow-1-highlight.jpg" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">7 step progress bar can be intimidating for some.</p>
 
 ### <span style="color: black; font-weight: 600;">Emotions ran wild</span>
 Parting with your hard earned money is never easy, and investing on our platform was no different. To make matters worse, this wasn’t just some purchase that could be returned and refunded within a few days if you weren’t satisfied. This was a rather illiquid (5+ years) investment – with penalties on your capital for early withdrawal. Didn't exactly inspire confidence.
@@ -164,13 +169,13 @@ For legal reasons, we have numerous different terms and acknowledgements the inv
   <a href="../assets/img/posts/04-building-a-better-checkout/04-old-flow-2-highlight.jpg">
     <img src="../assets/img/posts/04-building-a-better-checkout/04-old-flow-2-highlight.jpg" alt="" />
   </a>
-  <p class="tc f6 pb3">Placeholder</p>
+  <p class="tc f6 pb3">13 acknowledgement checkboxes for a typical investment.</p>
 </div>
 <div class="fluidbox-container fl w-100 w-50-ns pl0 pl2-ns">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-old-flow-8-highlight.jpg">
     <img src="../assets/img/posts/04-building-a-better-checkout/04-old-flow-8-highlight.jpg" alt="" />
   </a>
-  <p class="tc f6 pb3">Placeholder</p>
+  <p class="tc f6 pb3">Ever tried to sign a document using your mouse? It's awful.</p>
 </div>
 <div class="cf"></div>
 
@@ -182,7 +187,7 @@ Our legacy “Payment” step required the investor to add their bank account ma
     <img src="../assets/img/posts/04-building-a-better-checkout/04-old-flow-7-highlight.jpg" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">No one wants to find their checkbook or log in to their account for these numbers. Manually typing and re-typing is also frustrating and unnecessary.</p>
 
 ### <span style="color: black; font-weight: 600;">Editing the initial contribution was a hassle</span>
 Because the amount to invest (we call that an “initial contribution”) was chosen beforehand in an earlier screen that is NOT part of the checkout flow – there wasn’t an easy way to edit and change the values without exiting and restarting the process. Annoying for sure.
@@ -192,7 +197,7 @@ Because the amount to invest (we call that an “initial contribution”) was ch
     <img src="../assets/img/posts/04-building-a-better-checkout/04-old-flow-7-highlight-2.jpg" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
 
 ### <span style="color: black; font-weight: 600;">Inconsistent form treatment</span>
 A surface level issue, but important nonetheless. The forms and input fields suffered from a lack of consistency, inefficient use of white space, and an overall aging visual look when compared to the rest of the platform.
@@ -219,7 +224,7 @@ Time & resource permitting:
 
 # <span style="color: black;">Analysis: Part II</span>
 ## <span style="color: black;">Competitor survey</span>
-Armed with an outline for the MVP – I took to the internet to perform a quick analysis on a few direct and indirect competitors in the fintech space. Nothing terribly fancy here, I was looking at a few basic heuristics such as:
+With some time to spare, I took to the internet to perform a quick analysis on a few direct and indirect competitors in the fintech space. Nothing terribly fancy here, I was looking at a few basic heuristics such as:
 * How easy / how much time did it take to accomplish my goal (of investing)?
 * Was the navigation and page layout consistent and easy to understand?
 * Were there feedback channels? Were they discoverable? Useful?
@@ -230,13 +235,13 @@ Armed with an outline for the MVP – I took to the internet to perform a quick 
     <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-overview.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">Competitor survey with direct (green) and indirect (blue) competitors.</p>
 
 ## <span style="color: black;">Key takeaways</span>
 There were a lot of things each competitor did well and... not so well. Throughout each experience, however, a few things remained fairly consistent across the board:
 <br>
 
-### <span style="color: black; font-weight: 600;">Security was made to sound like a top priority</span>
+### <span style="color: black; font-weight: 600;">Security was front and center</span>
 Great care was taken to ensure the user felt comfortable and in control. Through the use of voice, tone, and visual iconography, the UI's were able to communicate safety and security during sensitive input steps. A must for any financial service.
 <br>
 <div class="fluidbox-container w-100">
@@ -244,23 +249,23 @@ Great care was taken to ensure the user felt comfortable and in control. Through
     <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">256 bit encryption and "bank level" security were plastered everywhere.</p>
 
-### <span style="color: black; font-weight: 600;">Personalization was front and center</span>
+### <span style="color: black; font-weight: 600;">A little personalization went a long way</span>
 Great care was taken to ensure the user felt comfortable and in control. Through the use of voice, tone, and visual iconography, the UI's were able to communicate safety and security during sensitive input steps. A must for any financial service.
 <br>
 <div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png">
-    <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-security.png" alt="" />
+  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
+    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
   </a>
 </div>
 <p class="tc f6 pb3">Placeholder</p>
 
-### <span style="color: black; font-weight: 600;">Not afraid of the big asks</span>
+### <span style="color: black; font-weight: 600;">Not being afraid of the big asks</span>
 Many institutions required a connected bank account in < 3 pages. Some even lead with the ability to connect your bank account using a third party API. Much earlier than I would have expected. This got the team thinking about various different integrations.
 <br>
 
-### <span style="color: black; font-weight: 600;">No one has solved the UX cardinal sin... forms</span>
+### <span style="color: black; font-weight: 600;">Forms are still a necessary evil</span>
 Those pesky input forms. We all love to hate them. Many financial services are plagued with long forms requiring sensitive information. It's just the way it works when dealing with money and no one has appeared to make any significant stride in solving it.
 <br>
 <div class="fluidbox-container w-100">
@@ -270,25 +275,15 @@ Those pesky input forms. We all love to hate them. Many financial services are p
 </div>
 <p class="tc f6 pb3">Placeholder</p>
 
-## <span style="color: black;">Whiteboarding</span>
-At this point I had a lot of different ideas on potential features and needed to get a few down on paper to clear my head. I organized a quick design studio with a few other designers and together, we sketched out different layouts and feature ideas that addressed the research and analysis. After a quick round of feedback we were able to narrow it down to a few different versions that would serve as a base for low-fi digital wireframes.
-<br>
-<div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
-    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
-  </a>
-</div>
-<p class="tc f6 pb3">Placeholder</p>
-
 ## <span style="color: black;">User flow</span>
-An updated user flow was also created to serve as base for future wireframing and prototyping. The main goal here was to reduce the number of pages and interactions on each page. This flow was expected to evolve over time as we received feedback on the prototype.
+We concluded our research phase with an updated user flow to serve as base for future wireframing and prototyping. The main goal here was to reduce the number of pages and interactions on each page. This flow was expected to evolve over time as we received feedback on the prototype.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-checkout-flow-1.png">
     <img src="../assets/img/posts/04-building-a-better-checkout/04-checkout-flow-1.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">Final iteration of the new user flow.</p>
 
 # <span style="color: black;">Designing the experience</span>
 ## <span style="color: black;">Creating the MVP</span>
@@ -302,22 +297,70 @@ These initial wireframes were used as a way to establish a general direction for
 <br>
 <br>
 
-## <span style="color: black;">Project is go</span>
+## <span style="color: black;">Planning</span>
 With the green light from engineering and product on an MVP direction, I established a timeline and sprint schedule before iterating on any further deliverables. The goal was to have a validated prototype ready for testing by the end of week two. This timeline was a little tight (especially considering we had more research to do surrounding future API integrations), but doable.
 <br>
-
-### <span style="color: black; font-weight: 600;">Plaid</span>
-One of the API integrations being considered was a service called Plaid. Plaid provides a technology layer that allows users to connect their bank accounts through their online login credentials. They also provide additional services centered around auto-filling input fields (such as name and address) based on information on file with the connected account. Many of the financial services I looked at during the competitive analysis used Plaid or a similar service to expedite the payment step and I found the experience to be quite enjoyable. I knew this would be a significant engineering effort, but it was something I definitely wanted to explore for this project.
 <br>
 
-### <span style="color: black; font-weight: 600;">Olark</span>
-Live chat was another requested feature on the table. The last few steps leading up to investment are where we normally see the most pressing questions and highest abandonment rates. Offering immediate assistance to address any critical concerns makes total sense.
+## <span style="color: black;">Whiteboarding</span>
+At this point I had a lot of different ideas on potential features and needed to get a few down on paper to clear my head. I organized a quick design studio with a few other designers and together, we sketched out different layouts and feature ideas that addressed the research and analysis. After a quick round of feedback we were able to narrow it down to a few different versions that would serve as a base for low-fi wireframes.
+<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-whiteboarding.jpg">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-whiteboarding.jpg" alt="" />
+  </a>
+</div>
+<p class="tc f6 pb3">Placeholder</p>
+
+## <span style="color: black;">Sketching</span>
+I sketched down a few of the main takeaways from the design studio on paper to use as a reference. Because our whiteboarding session was fairly robust, I didn't want to spend too much time regurgitating the details that were already covered. Once I felt I had what I needed, I moved into digital.
 <br>
 <br>
 
 ## <span style="color: black;">Wireframing</span>
-Once the new user flow was validated and ready to go, I started on a second round of wireframes. This is where I started to map out the core MVP features – exploring things like Plaid and automatically connecting a bank account, where and how to choose an initial contribution, and the placement of a live chat instance. With a solid direction from the earlier MVP meeting, coupled with a better understanding of the API’s we were interested in using, I was able to iterate quickly and move into the prototyping stage.
+Armed with a validated user flow and a lot of doodles, I started on a round of digital wireframes. This is where I started to map out the core MVP features in depth – exploring things like Plaid and automatically connecting a bank account, where and how to choose an initial contribution, and the placement of a live chat instance. I gathered feedback on a rolling basis and was able to iterate through different versions relatively quickly.
 <br>
+<div class="fluidbox-container w-100 w-50-ns fl pr1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-1.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-1.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-2.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-2.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pr1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-3.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-3.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-4.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-4.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pr1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-5.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-5.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-5-modal.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-5-modal.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 fl pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-wf-7.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-wf-7.png" alt="" title="" />
+  </a>
+</div>
+
+<p class="tc f6">The old checkout flow.</p>
+<div class="cf"></div>
+
+## <span style="color: black;">Mobile</span>
+About 80% of our investor conversion happens on a desktop device, so designing for larger screens was the priority during this initiative. However, utilizing our component based library, being cognizant of our breakpoints, and keeping the flow contained to two columns made the "graceful degradation" a breeze.
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
     <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
@@ -326,16 +369,46 @@ Once the new user flow was validated and ready to go, I started on a second roun
 <p class="tc f6 pb3">Placeholder</p>
 
 ## <span style="color: black;">Prototyping</span>
-Opting for speed and simplicity, the first prototype was built with Sketch and synced to InVision. InVision was the perfect tool for the job here as it allowed us to pass the prototype around the office and to friends and family for quick, asynchronous feedback. We were mainly validating the condensed flow (when compared to the old version) and testing for any glaring usability issues.
+Opting for speed and simplicity, the initial prototypes were built from the wireframes using Sketch and InVision. InVision was the perfect tool for the job here as it allowed us to pass the prototype around the office and to friends and family for quick, asynchronous feedback. We were mainly validating the condensed flow (when compared to the old version) and testing for any glaring usability issues.
 <br>
 <br>
 
 ## <span style="color: black;">High fidelity design</span>
 This prototyping cycle went through a couple rounds of iterations before leading up to the final sprint, where we jumped into high fidelity. At this point, most of the high level usability concerns had been addressed, and the engineering groundwork had been laid out in preparation for the overhaul. I made sure to utilize as many components from our already-built pattern library as much as I could, as well as documenting all potential new additions to be discussed and approved out of band.
 <br>
-<div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png">
-    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" />
+<div class="fluidbox-container w-100 w-50-ns fl pr1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-1.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-1.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-2.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-2.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 fl pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-3.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-3.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 fl pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-4.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-4.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pr1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-5.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-5.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/04-hf-5-modal.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/04-hf-5-modal.png" alt="" title="" />
+  </a>
+</div>
+<div class="fluidbox-container w-100 fl pb1 pb0-ns">
+  <a href="../assets/img/posts/04-building-a-better-checkout/placeholder.png" title="">
+    <img src="../assets/img/posts/04-building-a-better-checkout/placeholder.png" alt="" title="" />
   </a>
 </div>
 <p class="tc f6 pb3">Placeholder</p>
@@ -389,7 +462,7 @@ The original plan was to set up a staging server for user testing when developme
 <br>
 <br>
 
-## <span style="color: black;">Challenges</span>
+## <span style="color: black;">Results</span>
 Challenges
 <br>
 <br>
@@ -403,3 +476,13 @@ Next steps
 Retro
 <br>
 <br>
+
+<!-- ### <span style="color: black; font-weight: 600;">Plaid</span>
+One of the API integrations being considered was a service called Plaid. Plaid provides a technology layer that allows users to connect their bank accounts through their online login credentials. They also provide additional services centered around auto-filling input fields (such as name and address) based on information on file with the connected account. Many of the financial services I looked at during the competitive analysis used Plaid or a similar service to expedite the payment step and I found the experience to be quite enjoyable. I knew this would be a significant engineering effort, but it was something I definitely wanted to explore for this project.
+<br>
+
+### <span style="color: black; font-weight: 600;">Olark</span>
+Live chat was another requested feature on the table. The last few steps leading up to investment are where we normally see the most pressing questions and highest abandonment rates. Offering immediate assistance to address any critical concerns makes total sense.
+<br>
+<br>
+-->
