@@ -39,10 +39,10 @@ As a global marketplace leader that specializes in handmade items, Etsy wants to
 
 ## <span style="color: black;">Considerations</span>
 There are many important aspects our team needed to take into consideration before beginning our research, and even more afterwards.
-* What sort of time constraints should be placed on requests
-* How can we help customers brainstorm and ideate with the artisan
-* How do we ensure quality hits and not promote spam
-* How will this compete with existing services in the industry
+1. What sort of time constraints should be placed on requests
+2. How can we help customers brainstorm and ideate with the artisan
+3. How do we ensure quality hits and not promote spam
+4. How will this compete with existing services in the industry
 <br>
 <br>
 
@@ -76,48 +76,51 @@ Some excerpts from our interviews:
 
 # <span style="color: black;">Telling the story</span>
 ## <span style="color: black;">User personas</span>
-We sorted our data from the research phase into two main archetypes; the buyer and the artisan. After identifying patterns in the responses we received we then used the two personas to craft user stories and flow diagrams.
+We sorted our data from the research phase into two main archetypes; the buyer and the artisan. After identifying patterns in the responses we received, we then used the two personas to craft a pair of user stories.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
   <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-sarah.png" title="Persona">
     <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-sarah.png" alt="" title="Persona" />
   </a>
-  <p class="tc f6 mt0 pb3">The buyer persona, Sarah.</p>
+  <p class="tc f6 mt2 pb3">The buyer persona, Sarah.</p>
 </div>
 <div class="fluidbox-container w-100 w-50-ns fl pl0 pl2-ns">
   <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-tim.png" title="Persona">
     <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-persona-tim.png" alt="" title="Persona" />
   </a>
-  <p class="tc f6 mt0 pb3">The artisan persona, Tim.</p>
+  <p class="tc f6 mt2 pb3">The artisan persona, Tim.</p>
 </div>
-<div class="cf"></div>
+
+### <span style="color: #99CCFF;">Buyer</span>
+Sarah is a 23 year old elementary school teacher that is preparing to start a new school year. She wants to order custom name blocks for her class to help them with seating arrangements and with learning each other's names. Class starts next month so she needs to ensure the blocks will be error free and ready on a tight deadline.
+
+### <span style="color: #CC6666;">Artisan</span>
+Tim is business analyst by day, but a talented woodworker by night. He's looking to grow his woodworking business in hopes that one day he can turn into a full time job. Tim is a busy guy so he needs to be able to communicate with his customers on the go. He's always on the hunt for new and exciting projects.
+<br>
+<br>
 
 <span style="color: #FA6695;">
-  *Overall, I think these were successful personas. We still didn't have enough research for fully developed, bias free archetypes — but they address two categories of people that have significantly different motivations and needs when using the product.* 🖍
+  *Overall, I think these were successful personas. We didn't really have enough research for fully developed, bias free archetypes — but they address two categories of people that have significantly different motivations and needs when using the product.* 🖍
 </span>
 <br>
 <br>
 
-#### <span style="color: #99CCFF;">Buyer</span>
-Sarah is a 23 year old elementary school teacher that is preparing to start a new school year. She wants to order custom name blocks for her class to help them with seating arrangements and with learning each other's names. Class starts next month so she needs to ensure the blocks will be error free and ready on a tight deadline.
+## <span style="color: black;">User flows</span>
+Using the personas and user stories, we created a set of flow diagrams to illustrate the optimal "happy" path for each archetype. These diagrams served as a base for our wireframes, and allowed us to start thinking about any edge cases that we would need to design for.
 <br>
-<div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" title="User flow; buyer">
-    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" alt="" title="User flow; buyer" />
+<div class="fluidbox-container w-100 w-50-ns fl pr0 pr3-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" title="Buyer user flow">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-buy-flow.png" alt="" title="Buyer user flow" />
   </a>
 </div>
-<p class="tc f6 pb3">Initial iteration of the "buyer" user flow.</p>
-
-#### <span style="color: #CC6666;">Artisan</span>
-Tim is business analyst by day, but a talented woodworker by night. He's looking to grow his woodworking business in hopes that one day he can turn into a full time job. Tim is a busy guy so he needs to be able to communicate with his customers on the go. He's always on the hunt for new and exciting projects.
-<br>
-<div class="fluidbox-container w-100">
-  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" title="User flow; artisan">
-    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" alt="" title="User flow; artisan" />
+<div class="fluidbox-container w-100 w-50-ns fl pl0 pl3-ns">
+  <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" title="Artisan user flow">
+    <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sell-flow.png" alt="" title="Artisan user flow" />
   </a>
 </div>
-<p class="tc f6 pb3">Initial iteration of the "artisan" user flow.</p>
-
+<div class="cf"></div>
+<p class="tc f6">Left; the buyer flow. Right; the artisan flow.</p>
+<br>
 <span style="color: #FA6695;">
   *These user flows were a bit premature in my opinion. We should have spent more time analyzing both Etsy's website and mobile app before creating an optimal journey. The IA and navigation are quite different in both experiences and probably warrant additional flow diagrams that take this into consideration.* 🖍
 </span>
@@ -148,13 +151,11 @@ Once we felt confident in our user stories and flow diagrams, I lead the design 
     <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-sketch-4.png" alt="Sketch" title="Sketch" />
   </a>
 </div>
-<p class="tc f6">Initial layout iterations for project listings and request screens.</p>
 <div class="cf"></div>
+<p class="tc f6 pb3">Initial layout iterations for project listings and request screens.</p>
 
 ## <span style="color: black;">Wireframing</span>
 After getting some ideas down on paper, we began the wireframing process with the product request. We needed to design a method that allows the buyer to describe what they want in full detail, or guide them through the process if they're not quite sure. We settled on a hybrid form that first asks a series of basic questions to help categorize the request (product type, budget, shipping location, etc), then proceeds into more open ended questions to allow the buyer to add their personal touch (who is this for, what is this for, etc).
-
-Additionally, we also included a feature that allows the buyer to upload sources of inspiration, and even reference other Etsy products in an effort to expedite the brainstorming process.
 <br>
 <div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
   <a href="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-wireframe-annotated-1.png" title="Wireframe">
@@ -173,7 +174,10 @@ Additionally, we also included a feature that allows the buyer to upload sources
 </div>
 <div class="cf"></div>
 
-Moving over to the artisan side of our flow, we elected to create a sort of "reverse auction" concept. After some initial testing, we found that simply matching buyers with artisans by the highest bidder methodology left too much room for spam, and favored the larger and more established Etsy shop owners. We devised a system that allows the artisan to actively seek new project requests, and choose the requests that interest them the most. When an artisan has expressed interest in a project, we'll go ahead and open up the lines of communication so both parties can negotiate price and clear up any unanswered questions (we'll cover this in just a bit!).
+### <span style="color: black;">Reverse auction</span>
+With the artisan flow, we elected to create a sort of "reverse auction" concept. After some initial testing, we found that simply matching buyers with artisans by the highest bidder methodology left too much room for spam, and favored the larger and more established Etsy shop owners.
+
+We devised a system that allows the artisan to actively seek new project requests, and choose the requests that interest them the most. When an artisan has expressed interest in a project, we'll go ahead and open up the lines of communication so both parties can negotiate price and clear up any unanswered questions (we'll cover this in just a bit!).
 
 Ultimately, we wanted this system to put both the buyer and artisan on the same level to ensure quality matches and provide the best experience for both sides.
 <br>
@@ -197,9 +201,9 @@ Ultimately, we wanted this system to put both the buyer and artisan on the same 
     <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-project-accept-4.png" alt="Wireframe" title="Wireframe" />
   </a>
 </div>
-<p class="tc f6">Project overview/search > Project listing > Project brief > Confirmation.</p>
 <div class="cf"></div>
-
+<p class="tc f6">Project overview/search > Project listing > Project brief > Confirmation.</p>
+<br>
 <span style="color: #FA6695;">
   *I stand by this design even today, but I've come to realize that this solution could still favor larger shop owners. Some of the more popular creators have multiple employees and a greater capacity to handle multiple orders. The reverse auction system does nothing to safeguard against this scenario, so I would want to test this hypothesis in depth and respond accordingly.* 🖍
 </span>
@@ -219,8 +223,9 @@ Communication plays an essential role in this process. We can attempt to automat
     <img src="../assets/img/posts/03-case-study-revisited-etsy-marketplace/03-message-2.png" alt="" title="Messaging screen" />
   </a>
 </div>
-<p class="tc f6">Messaging + quote notification.</p>
 <div class="cf"></div>
+<p class="tc f6 pb3">Messaging + quote notification.</p>
+
 ## <span style="color: black;">Prototype & testing</span>
 We created a quick prototype in InVision and conducted a few rounds of user testing. We focused on the navigational structure and general user engagement throughout both the buyer and artisan flows. We took diligent notes and carefully listened to the feedback, iterating after every round. We kept the prototype in a low-medium fidelity state to cut down on design time and eliminate any visual bias. [View the prototype](https://invis.io/GN84O5HVB#/164678223_Find_Projects)
 <br>
