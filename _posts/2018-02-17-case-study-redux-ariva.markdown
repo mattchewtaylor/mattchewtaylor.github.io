@@ -53,7 +53,7 @@ My team had 3 weeks to design a feature set and UI for Ariva's new web app. The 
 <br>
 
 <span style="color: #FA6695;">
-  *Setting the objectives before gathering any meaningful user data was probably the most fatal flaw of this project. These objectives accomplished the immediate business and engineering needs, but not necessarily the users needs. With only 3 weeks, we didn't have a lot of time to validate these features using actual data from their target audience. Looking back, I would have pushed for more time to get in front of potential customers before kicking things off.* 🖍
+  *Setting the objectives before gathering any meaningful user data was definitely a big flaw of this project. These objectives accomplished the immediate business and engineering needs, but not necessarily the users needs. With only 3 weeks, we didn't have a lot of time to validate these features using actual data from their target audience. Looking back, I would have pushed for more time to get in front of potential customers before kicking things off.* 🖍
 </span>
 <br>
 <br>
@@ -81,7 +81,7 @@ After compiling our data, we reached out to our respondents for follow up interv
 <br>
 
 <span style="color: #FA6695;">
-  *We were looking at the wrong set of data at the wrong time. Diving into the details behind frequent relocation and the tools used was surface level at best. We should have focused more effort into understanding the actual moving process (from multiple personas) and the challenges each person faced.* 🖍
+  *Looking back, this doesn't feel like the correct path. I would have focused more effort into understanding the actual moving process (from multiple personas) and the challenges each person faced, rather than causation for frequent relocations.* 🖍
 </span>
 <br>
 <br>
@@ -119,7 +119,7 @@ At this point, we've built ourselves a foundation to begin the design process. W
 <p class="tc f6">Sean the family man; Natalie the serial mover; Jordan the new grad.</p>
 <br>
 <span style="color: #FA6695;">
-  *We didn't have enough clear data to effectively form these personas. Although these were based off of actual user interviews — the preliminary audience research that led to those interviews was noisy and skewed towards frequent movers. Because of that, these personas were a bit under-utilized during the design process.* 🖍
+  *We probably needed a little more data to effectively form these personas. Although these were based off of actual user interviews — the preliminary audience research that led to those interviews was noisy and skewed towards frequent movers.* 🖍
 </span>
 <br>
 <br>
@@ -170,7 +170,7 @@ Ariva is starting it's journey as a desktop web app. There's a lot of functional
 <br>
 
 ## <span style="color: black;">Sketch time</span>
-I began sketching various layouts and played around with different design approaches. I started with the onboarding process and followed the linear path we created in our user flows. After a few iterations of sketching, I organized a design studio with the rest of my team to get all of our ideas out onto paper. After a lot of back and forth, we finally started to refine the feature set into something a little more concrete. The session ended with a fleshed out onboarding system, a first iteration interactive task manager (more on this later), and a first iteration "neighborhood match" page.
+I began sketching various layouts and played around with different design approaches. I started with the onboarding process and followed the linear path we created in our user flows. After a few iterations of sketching, I organized a design studio with the rest of my team to get all of our ideas out onto paper. After a lot of back and forth, we finally started to refine the feature set into something a little more concrete. The session ended with a fleshed out onboarding system, a first iteration interactive task manager (more on this later), and a first iteration "neighborhood matching" page.
 <br>
 <div class="fluidbox-container w-100 w-third-ns fl ph1 pb1 pb0-ns">
   <a href="../assets/img/posts/02-case-study-revisited-ariva/02-sketch-1.png" title="Sketch">
@@ -191,7 +191,7 @@ I began sketching various layouts and played around with different design approa
 <p class="tc f6 pb3">First round of onboarding sketches. Pens added for dramatic effect.</p>
 
 ## <span style="color: black;">Wireframing & testing</span>
-This is where it gets fun. We started to incorporate some lean UX principles into our design process, test early and test often. I hit the ground running and quickly turned the sketches of our neighborhood match page into digital wireframes. Like the sketches, these wireframes were intended to be rough so we could test the navigational structure and layout comprehension. We tested these pages alongside the onboarding to give our users some contextual background.
+This is where it gets fun. We started to incorporate some lean UX principles into our design process, test early and test often. I hit the ground running and quickly turned the sketches of the neighborhood matching page into digital wireframes. Like the sketches, these wireframes were intended to be rough so we could test the navigational structure and layout comprehension. We tested these pages alongside the onboarding to give our users some contextual background.
 
 The feedback was positive! The onboarding was less intrusive than we had anticipated, and our users felt they were provided actual value from their input. Success!
 <br>
@@ -200,7 +200,7 @@ The feedback was positive! The onboarding was less intrusive than we had anticip
     <img src="../assets/img/posts/02-case-study-revisited-ariva/02-wireframe-1.png" alt="" title="Wireframes" />
   </a>
 </div>
-<p class="tc f6">Wireframe iterations of the "neighborhood match" screen.</p>
+<p class="tc f6">Wireframe iterations of the neighborhood matching page.</p>
 <br>
 <span style="color: #FA6695;">
   *We needed to test against our personas a bit more during this phase. If I recall correctly, we tested the prototypes with fellow students and few of our survey responders. If I had to do it again, I would challenge my team to get this in front of as many potential Ariva users as possible — people that are actually moving or have recently moved. Doing this might have helped us refine the onboarding even further.* 🖍
@@ -210,7 +210,7 @@ The feedback was positive! The onboarding was less intrusive than we had anticip
 
 # <span style="color: black;">The good stuff</span>
 ## <span style="color: black;">High fidelity design</span>
-The main objective for the neighborhood matching feature is to encapsulate the essence of specific neighborhoods and districts. Color, imagery, and iconography all play a vital role in this regard. With only a few days left, I was tasked with establishing a visual baseline for Ariva, and translating all wireframes into high fidelity comps.
+The main objective for the matching feature is to encapsulate the essence of specific neighborhoods and districts. Color, imagery, and iconography all play a vital role in this regard. With only a few days left, I was tasked with establishing a visual baseline for Ariva, and translating all wireframes into high fidelity comps.
 
 These mockups also gave us another great opportunity for more user testing. We wanted to gauge emotional responses to specific types of imagery, color combinations, and language.
 <br>
@@ -230,7 +230,7 @@ These mockups also gave us another great opportunity for more user testing. We w
   </a>
 </div>
 <div class="cf"></div>
-<p class="tc f6">Hifi mocks of the neighborhood match screen for D.C.</p>
+<p class="tc f6">Hifi mocks of the neighborhood matching page for a sepcific city (DC).</p>
 <br>
 <span style="color: #FA6695;">
   *Again, we needed to test these against our personas. How would Sean interpret this page? How would that differ from Natalie? How do their objectives change as they interact with the page?* 🖍
@@ -265,7 +265,7 @@ I'll say it again, onboarding kind of sucks. Usually there are better ways aroun
 <p class="tc f6 pb3">Hifi mocks of the initial onboarding flow/questionnaire.</p>
 
 ## <span style="color: black;">Mapbox integration</span>
-An integral part of any move is finding a home to live in. Looking back at our research, it was often the very first thing people did when deciding to move. Ariva recognized an opportunity to integrate with Mapbox to allow users to browse through real listings right from the Ariva web app. We implemented a high level version of what this might look like into the neighborhood match page.
+An integral part of any move is finding a home to live in. Looking back at our research, it was often the very first thing people did when deciding to move. Ariva recognized an opportunity to integrate with Mapbox to allow users to browse through real listings right from the Ariva web app. We implemented a high level version of what this might look like into the neighborhood matching page.
 
 The goal here is to dynamically filter out content based off the user preferences set by the onboarding process. For example, Sean (one of our user personas) is looking to upsize his current home in preparation for his brand new baby. Ariva would determine that school quality and location is probably an important factor going forward, and adjust the map accordingly based off of those criteria. Same scenario with housing, when Sean wants to see his housing options, he'll be presented with the best fit using his preferences.
 <br>

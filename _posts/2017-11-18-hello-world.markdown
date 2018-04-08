@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing... my blog!"
+title: "Hello world"
 img: ../assets/img/posts/01-introducing-my-blog/01-hero.png
 date: 2017-11-17
 category: Journal
@@ -45,7 +45,7 @@ Side projects and entrepreneurship are important concepts for me. For as long as
 <br>
 
 ## <span style="color: black;">So what else should I expect?</span>
-This will certainly evolve over time, but in my head I want this blog to look something like this: 
+This will certainly evolve over time, but in my head I want this blog to look something like this:
 * Case studies from past and current projects
 * Stuff from work that I'm able to share
 * General thoughts I have about product design and development

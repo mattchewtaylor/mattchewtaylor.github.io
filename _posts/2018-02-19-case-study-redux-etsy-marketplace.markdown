@@ -255,7 +255,7 @@ The messaging feature is only scratching the surface of effective communication.
 
 ## <span style="color: #FA6695;">*Retrospective*</span>
 <span style="color: #FA6695;">
-  *More time and effort into researching the audience and establishing effective personas would have worked wonders for this project. I think talking to as many local shop owners as possible and sitting in on actual requests and making note of the dialogue between parties would have been eye opening.*
+  *More time and effort into researching the audience and establishing effective personas would have worked wonders for this project. I think talking to as many local shop owners as possible and making note of the dialogue between parties during commissions would have been eye opening.*
   <br>
   <br>
   *Our team also spent too much time under the mobile constraint. We incorporated a lot of lean UX principles and had more than enough time to move into desktop design. We were so focused on getting the concept to work at the smallest possible size that we might have missed an otherwise obvious opportunity on a larger scale.* 🖍

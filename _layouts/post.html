@@ -1,37 +1,37 @@
 ---
 layout: default
 ---
-  <div class="ph3 pv5">
-    <div class="measure-wide center">
-      <article class="post lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
-        {% if page.medium-link %}
-        {% include medium-header.html %}
-        {% else %}
-        {% endif %}
-        <img src="{{ page.img }}" />
-        <h1 class="post-title f1 mb0 lh-title" itemprop="name headline">{{ page.title | escape }}</h1>
-        <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            <span class="no-underline mid-gray fw5 f5 dib">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            {{ page.date | date: '%B %d, %Y' }}</span>
-          </time>
-          <div class="white mb5">
-            {% if page.category == 'Case study' %}
-            <span class="br-pill bg-light-green pvhalf ph2 f7 dib">{{ page.category }}</span>
-            {% elsif page.category == 'Article' %}
-            <span class="br-pill bg-light-pink pvhalf ph2 f7 dib">{{ page.category }}</span>
-            {% else %}
-            <span class="br-pill bg-light-blue pvhalf ph2 f7 dib">{{ page.category }}</span>
-            {% endif %}
-          </div>
-        </p>
-        <div class="post-content mid-gray" itemprop="articleBody">
-          {{ content }}
-          {% include post-footer.html %}
+<div class="ph3 pv5">
+  <div class="measure-wide center">
+    <article class="post lh-copy" itemscope itemtype="http://schema.org/BlogPosting">
+      {% if page.medium-link %}
+      {% include medium-header.html %}
+      {% else %}
+      {% endif %}
+      <img src="{{ page.img }}" />
+      <h1 class="post-title f1 mb0 lh-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <span class="no-underline mid-gray fw5 f5 dib">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: '%B %d, %Y' }}</span>
+        </time>
+        <div class="white mb5">
+          {% if page.category == 'Case study' %}
+          <span class="br-pill bg-light-green pvhalf ph2 f7 dib">{{ page.category }}</span>
+          {% elsif page.category == 'Article' %}
+          <span class="br-pill bg-light-pink pvhalf ph2 f7 dib">{{ page.category }}</span>
+          {% else %}
+          <span class="br-pill bg-light-blue pvhalf ph2 f7 dib">{{ page.category }}</span>
+          {% endif %}
         </div>
-      </article>
-    </div>
+      </p>
+      <div class="post-content mid-gray" itemprop="articleBody">
+        {{ content }}
+        {% include post-footer.html %}
+      </div>
+    </article>
   </div>
+</div>
 
   <!-- Fluidbox -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
