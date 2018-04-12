@@ -15,9 +15,9 @@ custom-js:
 <!--excerpt-->
 # <span style="color: black;">Introduction</span>
 ## <span style="color: black;">Project overview</span>
-The "checkout" process — where users choose an investment plan and invest their money accordingly — is the final touchpoint before officially becoming an investor on the [company] platform.
+The "checkout" process — where users choose an investment plan and invest their money accordingly — is the final touchpoint before officially becoming an investor on the Fundrise platform.
 
-At the time of this project, we were preparing to launch the [goal based investment plans](google.com) — a pivot that set the underlying skeleton for what would become [company] today. I led a redesign effort for the entire checkout flow in preparation for the upcoming launch. That meant validating any usability concerns, poor performance signals, and general continuity issues — as well as prototyping and testing a solution that aligns with the updated product and branding guidelines.
+At the time of this project, we were preparing to launch the [goal based investment plans](https://fundrise.com/investments) — a pivot that set the underlying skeleton for what would become Fundrise today. I led a redesign effort for the entire checkout flow in preparation for the upcoming launch. That meant validating any usability concerns, poor performance signals, and general continuity issues — as well as prototyping and testing a solution that aligns with the updated product and branding guidelines.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-before-after-payment.png">
@@ -57,7 +57,7 @@ The project was kicked off with a simple audit on the current checkout, paying s
     <img src="../assets/img/posts/04-building-a-better-checkout/04-audit-flow.png" alt="" />
   </a>
 </div>
-<p class="tc f6">Placeholder</p>
+<p class="tc f6">Audit doc for the old checkout flow.</p>
 
 ## <span style="color: black;">Analytics</span>
 Additionally, we turned to our Google Analytics and Mixpanel segments to get a broad look at user behavior and identify any patterns of concern.
@@ -80,7 +80,7 @@ What we looked for:
 ### <span style="color: black;">Key takeaways</span>
 We noticed an extremely high drop-off rate on the first and fourth step of checkout (selecting country of residence and setting up payment, respectively). Additionally, we saw fairly long view times on the Acknowledgements step and Account Details step, as well as an average completion time of about 8 minutes.
 
-We can make a lot of different assumptions using the analytics but I wanted to check for any correlation between our data and the customer support cases that came through our feedback channels. Doing this helped our team dig into the *why* behind the *what* and set the stage for a few user interviews.
+We can make a lot of different assumptions using the analytics alone, but I wanted to check for any correlation between our data and the customer support cases that came through our feedback channels. Doing this helped our team dig into the *why* behind the *what* and set the stage for a few user interviews.
 <br>
 <br>
 
@@ -95,7 +95,7 @@ After about a week of research and interviews with potential investors, the big 
 <br>
 
 ### <span style="color: black; font-weight: 600;">The first step wasn't correctly setting expectations</span>
-Because [company] was (and currently still is) only available to US residents, non-US residents were prevented from proceeding further into checkout. Although this was stated in the Terms of Service, it wasn't clearly communicated anywhere else on the page.
+Because Fundrise was (and currently still is) only available to US residents, non-US residents were prevented from proceeding further into checkout. Although this was stated in the Terms of Service, it wasn't clearly communicated anywhere else on the page.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-old-flow-highlight.png">
@@ -136,7 +136,7 @@ For legal reasons, we have numerous different terms and acknowledgements the inv
 <p class="tc f6 pb3">An average of 13 acknowledgements and a digital signature for an investment is a lot of cumbersome input.</p>
 
 ### <span style="color: black; font-weight: 600;">Connecting a bank wasn’t as easy as it should be</span>
-Our legacy “Payment” step required the investor to add their bank account manually via a routing and account number. Not to mention we required an unnecessary confirmation on the account number, forcing the user to input the same information twice.
+Our legacy “Payment” step required the investor to add their bank account manually via a routing and account number. We also required an unnecessary confirmation on the account number, forcing the user to input the same information twice.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl pr0 pr2-ns">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-old-flow-5-highlight.jpg">
@@ -162,7 +162,7 @@ Because the amount to invest (we call that an “initial contribution”) was ch
 <p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
 
 ### <span style="color: black; font-weight: 600;">Emotions ran wild</span>
-Parting with your hard earned money is never easy, and investing on our platform was no different. To make matters worse, this wasn’t just some purchase that could be returned and refunded within a few days if you weren’t satisfied. This was a rather illiquid (5+ years) investment – with penalties on your capital for early withdrawal. Didn't exactly inspire confidence.
+Parting with hard earned money is never easy, and investing on our platform was no different. To make matters worse, this wasn’t just some purchase that could be returned and refunded within a few days if the user wasn't satisfied. This was a rather illiquid (5+ years) investment – with penalties on capital for early withdrawal. Didn't exactly inspire confidence.
 <br>
 <br>
 
@@ -205,7 +205,7 @@ Many modern day financial institutions are realizing that there are, in fact, hu
     <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-personality.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">Personal copywriting and fictional agents helped guide me through the arduous process.</p>
 
 ### <span style="color: black; font-weight: 600;">Forms are still a necessary evil</span>
 Too many financial services are plagued with seemingly endless pages of long form fields requiring sensitive information. Whether it's for data collection or identity verification, we have grown accustomed to signing away our lives in pursuit of financial well-being. It's just the way it works when dealing with money and no one has appeared to make any significant stride in solving it.
@@ -254,7 +254,7 @@ At this point I had a lot of different ideas on potential features and needed to
     <img src="../assets/img/posts/04-building-a-better-checkout/04-whiteboarding.jpg" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">One of many whiteboarding catastrophes.</p>
 
 ## <span style="color: black;">Sketching</span>
 I sketched down a few of the main takeaways from the design studio on paper to use as a reference. Because our whiteboarding session was fairly robust, I didn't want to spend too much time regurgitating the details that were already covered. Once I felt I had what I needed, I moved into digital.
@@ -428,7 +428,7 @@ The visual look and feel has been updated to reflect the newer branding efforts,
     <img src="../assets/img/posts/04-building-a-better-checkout/04-results.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Placeholder</p>
+<p class="tc f6 pb3">Updated conversion rate for a 24 hour period as of January 2018.</p>
 
 ## <span style="color: black;">Next steps</span>
 Next on the list is altering the step order, namely placing the Funding step *first*. With the users consent, doing this will allow us to take further advantage of Plaid and use data stored in their bank account to auto-fill contact information and other input fields during later steps. The ultimate goal is to reduce friction and make this entire process as painless as possible.

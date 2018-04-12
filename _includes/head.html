@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ site.title | escape }}</title>
+  <meta name="robots" content="noindex,nofollow">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <!-- css -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
