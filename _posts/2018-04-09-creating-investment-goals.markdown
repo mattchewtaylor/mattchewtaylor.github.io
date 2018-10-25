@@ -113,7 +113,7 @@ There are a few key pieces of information required to create an effective invest
 </div>
 <br>
 
-### <span style="color: black; font-weight: 600;">Risk tolerance was a core heuristic</span>
+### <span style="color: black; font-weight: 600;">Risk tolerance</span>
 Many services had subtle differences in how they formulated their plans and goals for the end user, but most used risk tolerance as the main underlying structure. This makes sense when using public securities such as stocks or bonds, but gets a little more complicated with real estate.
 <br>
 <div class="fluidbox-container w-100">
@@ -121,7 +121,7 @@ Many services had subtle differences in how they formulated their plans and goal
     <img src="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-risk.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Real estate is generally riskier across the board, so the idea of "low vs high risk" isn't an accurate representation.</p>
+<p class="tc f6 pb3">Real estate is generally riskier across the board, so the idea of "low vs high risk" isn't the most effective strategy when creating a portfolio.</p>
 
 ### <span style="color: black; font-weight: 600;">Graphs galore</span>
 Investing is generally perceived as investing money now, and earning more money later. This concept lends itself well to a myriad of different line graphs and bar charts. Some services were more effective than others at visualizing the numbers in a “cognitively light” manner.
@@ -134,7 +134,7 @@ Investing is generally perceived as investing money now, and earning more money 
 <p class="tc f6 pb3">🚀🌖</p>
 
 ### <span style="color: black; font-weight: 600;">Differing investment flows</span>
-Some services used the goal setting experience as a first point of contact, funneling users into the investment flows. Other services required a cleared investment before customizing further.
+Some services used the goal setting experience as a first point of contact, funneling users into the investment flow afterwards. Other services required a cleared payment before customizing further. In general we should aim to provide the user with as much value as possible before requiring any form of payment.
 <br>
 <br>
 
@@ -176,7 +176,7 @@ With our framework in place, I created a basic user journey to help the team vis
 <br>
 
 ## <span style="color: black;">Concept model</span>
-Another important internal reference was the concept model. This model was created to help the design and development team figure out the general scope and implementation strategy for this feature. Like most of these early analysis artifacts, it evolved over time as we refined.
+Another important internal reference was the concept model. This model was created to help the design and development team figure out the general scope and implementation strategy for this feature (what does creating a goal actually look like?). Like most of these early artifacts, it evolved over time as we refined.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-concept-model.png">
