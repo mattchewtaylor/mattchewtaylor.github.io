@@ -171,9 +171,9 @@ Parting with hard earned money is never easy, and investing on our platform was 
 With some time to spare, I took to the internet to perform a quick analysis on a few direct and indirect competitors in the fintech space. I focused on heuristics such as:
 1. How easy / how much time did it take to accomplish my goal (of investing)?
 2. Did the checkout process keep me motivated and excited to continue?
-2. Was the navigation and page layout consistent and easy to understand?
-3. Were there feedback channels? Were they discoverable? Useful?
-4. What was the primary tone and voice throughout my interactions? How did I feel?
+3. Was the navigation and page layout consistent and easy to understand?
+4. Were there feedback channels? Were they discoverable? Useful?
+5. What was the primary tone and voice throughout my interactions? How did I feel?
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-overview.png">
@@ -215,7 +215,7 @@ Too many financial services are plagued with seemingly endless pages of long for
     <img src="../assets/img/posts/04-building-a-better-checkout/04-comp-analysis-forms.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Various form fields for signing up and investing </p>
+<p class="tc f6 pb3">Various form fields for signing up and investing.</p>
 
 ## <span style="color: black;">Updating the user flow</span>
 We concluded our research phase with an updated user flow to serve as base for future wireframing and prototyping. The main goal here was to reduce the number of pages and interactions on each page. This flow was expected to evolve over time as we received feedback on the prototype.

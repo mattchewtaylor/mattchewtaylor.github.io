@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating investment goals"
-img: ../assets/img/posts/06-building-a-better-checkout/06-future-earnings-hero.png
+img: ../assets/img/posts/06-creating-investment-goals/06-goal-hero.png
 date: 2018-04-09
 category: Case study
 permalink: /writing/:title
@@ -26,7 +26,7 @@ By creating a more personalized and interactive experience, we can put the inves
     <img src="../assets/img/posts/06-creating-investment-goals/06-dashboard-before-after.png" alt="" />
   </a>
 </div>
-<p class="tc f6">The redesigned Payment step.</p>
+<p class="tc f6">The redesigned dashboard.</p>
 
 ## <span style="color: black;">Project goals</span>
 The overarching objective for this project was to increase engagement across the platform and foster longer term commitments from our investors. That could be broken down into:
@@ -84,7 +84,7 @@ With a better understanding of our internal business needs, it was time to recru
   </a>
 </div>
 <div class="cf"></div>
-<p class="tc f6 pb3">Early iterations of the onboarding and investment plan.</p>
+<p class="tc f6 pb3">Early survey implementation for capturing interested participants.</p>
 
 ## <span style="color: black;">User interviews</span>
 We reached out to a few people that opted for a follow up to schedule remote interviews. Here we were able to dive deeper and gather more contextual feedback.
@@ -104,34 +104,34 @@ Some other things I looked for:
 
 ## <span style="color: black;">Takeaways</span>
 ### <span style="color: black; font-weight: 600;">Income and assets</span>
-There are a few key pieces of information required to create an effective investment plan. This usually boils down to the users current yearly income, cash on hand, cash already invested, and risk tolerance. No black sheep here.
+There are a few key pieces of information required to create an effective investment plan. This usually boils down to the investors current yearly income, cash on hand, cash already invested, and risk tolerance. No black sheep here.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-income.png">
     <img src="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-income.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
+<br>
 
 ### <span style="color: black; font-weight: 600;">Risk tolerance was a core heuristic</span>
-Many services had subtle differences in how they formulated their various plans and goals for the end user, but most used risk tolerance as the main underlying structure. This makes sense when using public securities such as stocks or bonds, but gets a little more complicated with real estate.
+Many services had subtle differences in how they formulated their plans and goals for the end user, but most used risk tolerance as the main underlying structure. This makes sense when using public securities such as stocks or bonds, but gets a little more complicated with real estate.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-risk.png">
     <img src="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-risk.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
+<p class="tc f6 pb3">Real estate is generally riskier across the board, so the idea of "low vs high risk" isn't an accurate representation.</p>
 
 ### <span style="color: black; font-weight: 600;">Graphs galore</span>
-Investing is generally perceived as investing money now, and earning appreciation on that money over a period of time. This concept lends itself well to a myriad of different line graphs and bar charts. Some services were more effective than others at visualizing the numbers in a “cognitively light” manner.
+Investing is generally perceived as investing money now, and earning more money later. This concept lends itself well to a myriad of different line graphs and bar charts. Some services were more effective than others at visualizing the numbers in a “cognitively light” manner.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-graphs.png">
     <img src="../assets/img/posts/06-creating-investment-goals/06-comp-analysis-graphs.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
+<p class="tc f6 pb3">🚀🌖</p>
 
 ### <span style="color: black; font-weight: 600;">Differing investment flows</span>
 Some services used the goal setting experience as a first point of contact, funneling users into the investment flows. Other services required a cleared investment before customizing further.
@@ -166,28 +166,23 @@ Utilizing the unique investment criteria behind our different plans (Long-term G
 <br>
 
 ## <span style="color: black;">User journey map</span>
-With our framework in place, I created a basic user journey to help the team visualize how a new and existing investor would interact with this experience. This was meant to be a high level reference to keep the team on the same page. We needed to understand the different thought processes and use cases, and identify potential pain points.
+With our framework in place, I created a basic user journey to help the team visualize how a new and existing investor might interact with this experience, as well as the emotions involved along the way. This was meant to be a high level reference to keep the team on the same page. We needed to understand the different thought processes and identify potential pain points.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-user-journey.png">
     <img src="../assets/img/posts/06-creating-investment-goals/06-user-journey.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
+<br>
 
 ## <span style="color: black;">Concept model</span>
-Another important internal reference was the concept model. This concept model was created to help the design and development team figure out the general scope and implementation strategy for this feature. Like most of these early analysis deliverables, it evolved over time as we refined.
+Another important internal reference was the concept model. This model was created to help the design and development team figure out the general scope and implementation strategy for this feature. Like most of these early analysis artifacts, it evolved over time as we refined.
 <br>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-concept-model.png">
     <img src="../assets/img/posts/06-creating-investment-goals/06-concept-model.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Restarting the whole process just to change the contribution led to higher abandonment rates.</p>
-
-## <span style="color: black;">User flow</span>
-Before moving into the design phase, I took a first pass at creating a flow diagram for the actual product. This was a great time to start thinking about an updated information architecture and how to integrate this experience into the updated dashboard.
-<br>
 <br>
 
 # <span style="color: black;">Designing the experience</span>
@@ -216,7 +211,7 @@ Armed with our user journeys, an updated user flow, and a plan of action for the
   </a>
 </div>
 <div class="cf"></div>
-<p class="tc f6 pb3">Early iterations of the onboarding and investment plan.</p>
+<p class="tc f6 pb3">Early iterations of the onboarding.</p>
 
 ## <span style="color: black;">Prototyping</span>
 We didn’t have a ton of time for a traditional “wireframing” phase, the objective was to keep the initiative lean for ease of implementation. After initial feedback on the sketches, I took advantage of our growing pattern library and jumped straight into prototyping with Sketch and InVision.
@@ -227,25 +222,22 @@ The goal was to have two prototypes ready for moderated testing around the offic
   <a href="../assets/img/posts/06-creating-investment-goals/06-prototype-pi-v1.png" title="">
     <img src="../assets/img/posts/06-creating-investment-goals/06-prototype-pi-v1.png" alt="" title="" />
   </a>
-  <p class="tc f6 pb3">V1 - passive income.</p>
 </div>
 <div class="fluidbox-container w-100 w-50-ns fl pl1 pb1 pb0-ns">
   <a href="../assets/img/posts/06-creating-investment-goals/06-prototype-retirement-v1.png" title="">
     <img src="../assets/img/posts/06-creating-investment-goals/06-prototype-retirement-v1.png" alt="" title="" />
   </a>
-  <p class="tc f6 pb3">V1 - retirement.</p>
 </div>
+<div class="cf"></div>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-prototype-pi-v2.png" title="">
     <img src="../assets/img/posts/06-creating-investment-goals/06-prototype-pi-v2.png" alt="" title="" />
   </a>
-  <p class="tc f6 pb3">V2 - passive income.</p>
 </div>
 <div class="fluidbox-container w-100">
   <a href="../assets/img/posts/06-creating-investment-goals/06-prototype-retirement-v2.png" title="">
     <img src="../assets/img/posts/06-creating-investment-goals/06-prototype-retirement-v2.png" alt="" title="" />
   </a>
-  <p class="tc f6 pb3">V2 - retirement.</p>
 </div>
 <div class="cf"></div>
 
@@ -279,21 +271,14 @@ After preliminary testing, we settled on version 2 (the condensed version). With
     <img src="../assets/img/posts/06-creating-investment-goals/06-onboarding-4.png" alt="" />
   </a>
 </div>
-<p class="tc f6 pb3">Various form fields for signing up and investing </p>
-
-## <span style="color: black;">Testing</span>
-We’re doin it live!
-
-Unfortunately we didn’t have as much time to test in high fidelity as I would have liked. Instead, I organized a moderated walk-through with stakeholders and any other interested team members. I’m confident we were able to address most of the high level usability concerns, but we’ll need to rely on alpha and beta testing for more in-depth feedback.
-<br>
-<br>
+<p class="tc f6 pb3">A few screens from the investment plan creation flow.</p>
 
 ## <span style="color: black;">Development</span>
 The front-end and engineering teams were involved at various stages throughout the process, so providing highly detailed spec docs was unnecessary. I remained on the daily stand-up meetings and acted as general consultant through the dev process. As development was nearing completion, we organized a pre-alpha test on UserTesting.
 <br>
 <br>
 
-## <span style="color: black;">Event tracking</span>
-The final step in this process was creating an action plan for event tracking. Figuring out how to identify patterns of concern, and what interactions need special attention are crucial for measuring success and future iteration.
+## <span style="color: black;">Testing</span>
+Unfortunately we didn’t have as much time to test in high fidelity as I would have liked. Instead, I organized a moderated walk-through with stakeholders and any other interested team members for some initial feedback. We also set up event tracking with Google Analytics, Mixpanel, and Google Tag Manager to monitor patterns and set the stage for future testing.
 <br>
 <br>
