@@ -34,9 +34,25 @@ layout: default
       <span class="fl w-100 w-10-ns mt4 f3">🤓</span>
       <p class="lh-copy mid-gray fl w-100 w-90-ns mt4-ns">I have 4+ years of experience in UX, visual design, and code. I'm currently with the interactive team at <a class="isl-blue fw5 dim link-underline" href="https://isl.co/">ISL</a> making all sorts of digital experiences come to life.</p>
 
+      <!-- recent work -->
+      <span class="fl w-100 w-10-ns mt4 f3"></span>
+      <div class="lh-copy mid-gray fl w-100 w-90-ns mt4-ns">
+        <ul class="list pa0 mt0">
+          <li class="lh-copy black fw5 pt0 pb3">Recent-ish work</li>
+          {% for post in site.posts %}
+          {% if post.title contains 'Case study redux:' %}
+          {% elsif post.category == 'Case study' %}
+          <a class="db no-underline link-blue fw5 dim slide" href="{{ post.url | relative_url }}">
+            <li class="lh-copy pv3"><span class="link-underline">{{ post.title | escape }}</span></li>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
       <!-- row 3 -->
       <span class="fl w-100 w-10-ns mt4 f3 ">📁</span>
-      <p class="lh-copy mid-gray fl w-100 w-90-ns mt4-ns">Case studies, articles, and general musings about product design are published to my <a class="medium-green fw5 dim link-underline" href="{{ "/writing/" | relative_url }}">blog</a>. My visual and UI work can be found over on <a class="dribbble-pink fw5 dim link-underline" href="https://dribbble.com/mattchewtaylor">Dribbble</a>. If you'd like to see more, feel free to <a class="github-grey fw5 dim link-underline" href="mailto:matthewbehantaylor@gmail.com">drop me a line</a>.</p>
+      <p class="lh-copy mid-gray fl w-100 w-90-ns mt4-ns">The rest can be found on my <a class="medium-green fw5 dim link-underline" href="{{ "/writing/" | relative_url }}">blog</a>. It's a mixed bag of case studies, articles, and general musings about product design. Some visual and UI pieces are over on <a class="dribbble-pink fw5 dim link-underline" href="https://dribbble.com/mattchewtaylor">Dribbble</a>. If you still need to see more, feel free to <a class="github-grey fw5 dim link-underline" href="mailto:matthewbehantaylor@gmail.com">drop me a line</a>.</p>
 
       <h1 class="f3 fl w-100 mt4 lh-title">Other tidbits.</h1>
 

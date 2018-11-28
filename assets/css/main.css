@@ -21,7 +21,8 @@ p, li, .f5 { font-size: 18px; }
 #bg, #mt { -webkit-transition: all .5s ease; }
 #logo:hover #bg { fill: #ffffff; -webkit-transition: all .35s ease; }
 #logo:hover #mt { fill: #000000; -webkit-transition: all .35s ease; }
-/* social colors */
+/* colors */
+.link-blue { color: #357edd; }
 .twitter-blue { color: #1da1f2; }
 .linkedin-blue { color: #0077b5; }
 .fundrise-orange { color: #f47735 }
