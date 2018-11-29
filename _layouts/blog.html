@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
   {{ content }}
@@ -28,11 +27,11 @@ layout: default
           </div>
           <div class="white mb4">
             {% if post.category == 'Case study' %}
-            <span class="br-pill bg-light-green pvhalf ph2 f7 dib">{{ post.category }}</span>
+            <span class="br-pill bg-light-green black pvhalf ph2 f7 dib">{{ post.category }}</span>
             {% elsif post.category == 'Article' %}
-            <span class="br-pill bg-light-pink pvhalf ph2 f7 dib">{{ post.category }}</span>
+            <span class="br-pill bg-light-pink black pvhalf ph2 f7 dib">{{ post.category }}</span>
             {% else %}
-            <span class="br-pill bg-light-blue pvhalf ph2 f7 dib">{{ post.category }}</span>
+            <span class="br-pill bg-light-blue black pvhalf ph2 f7 dib">{{ post.category }}</span>
             {% endif %}
           </div>
         </div>
