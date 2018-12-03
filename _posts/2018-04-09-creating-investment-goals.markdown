@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating investment goals"
+title: "Creating actionable investment goals"
 img: ../assets/img/posts/06-creating-investment-goals/06-goal-hero.png
 date: 2018-04-09
 category: Case study
@@ -15,7 +15,7 @@ custom-js:
 <!--excerpt-->
 # <span style="color: black;">Introduction</span>
 ## <span style="color: black;">Project overview</span>
-As part of a larger overhaul to the investor dashboard, the team wanted to give investors the ability to set an earnings goal and create an experience centered around tracking and ultimately reaching that goal.
+As part of a larger overhaul to the investor dashboard, the Fundrise team wanted to give investors the ability to set an earnings goal and create an experience centered around tracking and ultimately reaching that goal.
 
 Up until this initiative, the dashboard only provided static reporting tools related to the users investments (capital invested, change over time, assets in their portfolio, etc). While functional, it’s not terribly interesting and doesn’t encourage high quality engagement or growth with the platform.
 

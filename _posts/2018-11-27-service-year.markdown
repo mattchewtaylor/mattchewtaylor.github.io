@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Helping refugees resettle in the United States"
-img: ../assets/img/posts/07-settlein-app/07-settlein-hero.png
+title: "Expanding service years for young Americans"
+img: ../assets/img/posts/08-service-year/08-sy-hero.jpg
 date: 2018-11-20
 category: Case study
 permalink: /writing/:title
