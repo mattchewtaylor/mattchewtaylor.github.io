@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Helping refugees resettle in the United States"
+title: "Helping refugees resettle to the United States"
 img: ../assets/img/posts/07-settlein-app/07-settlein-hero.png
 date: 2018-11-20
 category: Case study
@@ -210,4 +210,9 @@ We worked closely with IRC to develop a set of rules governing line-length, font
 ## <span style="color: black;">Next steps</span>
 We just wrapped up a ton of usability testing and are gearing up for Phase 2! We're making a lot of UI refinements, adding more languages, and breaking into the desktop space with a SettleIn web app! Stay tuned for updates in early 2019.
 <br>
-<br>
+<div class="fluidbox-container w-100">
+  <a href="../assets/img/posts/07-settlein-app/07-app-gif.gif">
+    <img src="../assets/img/posts/07-settlein-app/07-app-gif.gif" alt="" />
+  </a>
+</div>
+<p class="tc f6 pb3">Stay tuned! 🚀</p>
