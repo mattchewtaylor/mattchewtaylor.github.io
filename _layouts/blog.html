@@ -7,32 +7,30 @@ layout: default
 
   <div class="ph3 pv5">
     <div class="list pl0 measure-wide center lh-copy">
-      <h1 class="f2 fl w-100 mt0-ns lh-title">I design & write about things.</h1>
+      <h1 class="f2 fl w-100 mt0-ns lh-title">I like to write sometimes.</h1>
       {% for post in site.posts %}
-      {% if post.category == 'Case study' %}
-      <span class="fl w-100 w-10-ns pa0 mt4 f3">📚</span>
-      {% elsif post.category == 'Article' %}
-      <span class="fl w-100 w-10-ns pa0 mt4 f3">📰</span>
-      {% else %}
-      <span class="fl w-100 w-10-ns pa0 mt4 f3">📓</span>
-      {% endif %}
       <a class="db no-underline black dim slide" href="{{ post.url | relative_url }}">
-        <div class="fl w-100 w-90-ns bb b--light-gray pointer">
-          <h1 class="f3 pa0 mt2 mt4-ns mb0">
-            {{ post.title | escape }}
-          </h1>
-          <div>
-            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-            <span class="no-underline mid-gray fw5 f5 mb1 dib">{{ post.date | date: '%B %d, %Y' }}</span>
+        <div class="fl w-100 mt4 pb2 flex flex-column flex-row-ns bb b--light-gray">
+          <div class="pr3-ns w-100 w-30-ns">
+            <img src="{{ post.img }}" class="db w-100">
           </div>
-          <div class="white mb4">
-            {% if post.category == 'Case study' %}
-            <span class="br-pill bg-light-green black pvhalf ph2 f7 dib">{{ post.category }}</span>
-            {% elsif post.category == 'Article' %}
-            <span class="br-pill bg-light-pink black pvhalf ph2 f7 dib">{{ post.category }}</span>
-            {% else %}
-            <span class="br-pill bg-light-blue black pvhalf ph2 f7 dib">{{ post.category }}</span>
-            {% endif %}
+          <div class="w-100 w-70-ns">
+            <h1 class="f4 pa0 ma0-ns mt4 mb0">
+              {{ post.title | escape }}
+            </h1>
+            <div>
+              {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+              <span class="no-underline mid-gray fw4 f5 mb1 dib">{{ post.date | date: '%B %d, %Y' }}</span>
+            </div>
+            <div class="white mb4">
+              {% if post.category == 'Case study' %}
+              <span class="br-pill bg-light-green black pvhalf ph2 f7 dib">{{ post.category }}</span>
+              {% elsif post.category == 'Article' %}
+              <span class="br-pill bg-light-pink black pvhalf ph2 f7 dib">{{ post.category }}</span>
+              {% else %}
+              <span class="br-pill bg-light-blue black pvhalf ph2 f7 dib">{{ post.category }}</span>
+              {% endif %}
+            </div>
           </div>
         </div>
       </a>
