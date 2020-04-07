@@ -164,7 +164,7 @@ Running in tandem with our design efforts, the dev team was hard at work at buil
 <p class="tc f6 pb3">Creating an assessment question through the CMS.</p>
 
 ## <span style="color: black;">Beauty and accessibility</span>
-We began by branding and naming the application, landing on Settle In – a reminder to the user that the app is meant to be a comforting mechanism to own and understand your resettlement process. From there we designed a universal iconography set, which mimicked airport way-finding, and an accessible color scheme, devoid of colors representative of any particular nation.
+We began by branding and naming the application, landing on SettleIn – a reminder to the user that the app is meant to be a comforting mechanism to own and understand your resettlement process. From there we designed a universal iconography set, which mimicked airport way-finding, and an accessible color scheme, devoid of colors representative of any particular nation.
 <br>
 <div class="fluidbox-container w-100 w-50-ns fl pr1-ns pb1 pb0-ns">
   <a href="../assets/img/posts/07-settlein-app/07-color.jpg">
@@ -202,7 +202,7 @@ SettleIn needed to support multiple languages (and even multiple dialects) spann
 ## <span style="color: black;">Bi-directional design</span>
 Rendering the alphabet was only half of the equation. To fully account for all English & Arabic speakers, we needed to create a design system that enabled both left-to-right and right-to-left reading across the app and integrated curriculum.
 
-We worked closely with IRC to develop a set of rules governing line-length, font size, and when to use formal vs. informal translations. We also integrated animated tool tips that added contextual hints as a fallback, prompting users using motion (rather than language) to access Settle In’s features.
+We worked closely with IRC to develop a set of rules governing line-length, font size, and when to use formal vs. informal translations. We also integrated animated tool tips that added contextual hints as a fallback, prompting users using motion (rather than language) to access SettleIn’s features.
 <iframe src="https://player.vimeo.com/video/274367353" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br>
 
